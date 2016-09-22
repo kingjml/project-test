@@ -1,64 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8' />
-    <title></title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
-    </style>
-</head>
-<body>
-
-<div id='map'></div>
-<script>
-mapboxgl.accessToken = 'pk.eyJ1IjoibTlicmFkeSIsImEiOiJjaXNzNHQ0YmowNmM5MnlwaGh3YjJzd3k3In0.-Fu9YD8Qbrw7xRZ-7Ocn6w';
-var map = new mapboxgl.Map({
-    container: 'map', // container id
-    style: 'mapbox://styles/mapbox/basic-v9', //stylesheet location
-    center: [-79.50, 44], // starting position
-    zoom: 3, // starting zoom
-    dragRotate: false // no rotation
-});
-map.on('load', function() {
-    map.addSource('tweet-data', {
-        type: 'vector',
-        url: 'mapbox://m9brady.cisum4gbe0ey52utkxmrua7di-83pch'
-    });
-    map.addLayer({
-        "id": "snowtweets",
-        "type": "symbol",
-        "source": "tweet-data",
-        "source-layer": "snowtweet_polys",
-        "layout": {
-            "icon-image": "marker-15"
-        }
-    });
-    
-});
-map.on('click', function (e) {
-    var features = map.queryRenderedFeatures(e.point, { layers: ['snowtweets'] });
-    if (!features.length) {
-        return;
-    }
-    var feature = features[0];
-    // Populate the popup and set its coordinates
-    // based on the feature found.
-    var popup = new mapboxgl.Popup()
-        .setLngLat(feature.geometry.coordinates)
-        //.setHTML("<b>"+feature.properties.twitter_handle+"</b><br><i>"+feature.properties.tweet_text+"</i><br><iframe src='"+feature.properties.media_url+"/embed/' alt='tweet image' width='100',height='100'>")
-        //.setHTML("<br><b>"+feature.properties.twitter_handle+"</b><br><i>"+feature.properties.tweet_text+"</i><br>")
-        .setHTML("<br><b>"+feature.properties.twitter_handle+"</b><br>"+feature.properties.tweet_text+"<br><i>"+feature.properties.media_url+"</i>")
-        .addTo(map);
-});
-map.on('mousemove', function (e) {
-    var features = map.queryRenderedFeatures(e.point, { layers: ['snowtweets'] });
-    map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
-});
-</script>
-
-</body>
+    <head>
+        <meta charset='utf-8' />
+        <title></title>
+        <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.css' rel='stylesheet' />
+        <style>
+            body { margin:0; padding:0; }
+            #map { position:absolute; top:0; bottom:0; width:100%; }
+        </style>
+    </head>
+    <body>
+        <div id='map'></div>
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoibTlicmFkeSIsImEiOiJjaXNzNHQ0YmowNmM5MnlwaGh3YjJzd3k3In0.-Fu9YD8Qbrw7xRZ-7Ocn6w';
+            var map = new mapboxgl.Map({
+                container: 'map', // container id
+                style: 'mapbox://styles/mapbox/basic-v9', //stylesheet location
+                center: [-79.50, 44], // starting position
+                zoom: 3, // starting zoom
+                dragRotate: false // no rotation
+            });
+            map.on('load', function() {
+                map.addSource('tweet-data', {
+                    type: 'vector',
+                    url: 'mapbox://m9brady.cisum4gbe0ey52utkxmrua7di-83pch'
+                });
+                map.addLayer({
+                    "id": "snowtweets",
+                    "type": "symbol",
+                    "source": "tweet-data",
+                    "source-layer": "snowtweet_polys",
+                    "layout": {
+                        "icon-image": "marker-15"
+                    }
+                });
+            });
+            map.on('click', function (e) {
+                var features = map.queryRenderedFeatures(e.point, { layers: ['snowtweets'] });
+                if (!features.length) {
+                    return;
+                }
+                var feature = features[0];
+                // Populate the popup and set its coordinates
+                // based on the feature found.
+                var popup = new mapboxgl.Popup()
+                    .setLngLat(feature.geometry.coordinates)
+                    //.setHTML("<b>"+feature.properties.twitter_handle+"</b><br><i>"+feature.properties.tweet_text+"</i><br><iframe src='"+feature.properties.media_url+"/embed/' alt='tweet image' width='100',height='100'>")
+                    //.setHTML("<br><b>"+feature.properties.twitter_handle+"</b><br><i>"+feature.properties.tweet_text+"</i><br>")
+                    .setHTML("<br><b>"+feature.properties.twitter_handle+"</b><br>"+feature.properties.tweet_text+"<br><i>"+feature.properties.media_url+"</i>")
+                    .addTo(map);
+            });
+            map.on('mousemove', function (e) {
+                var features = map.queryRenderedFeatures(e.point, { layers: ['snowtweets'] });
+                map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+            });
+        </script>
+    </body>
 </html>
