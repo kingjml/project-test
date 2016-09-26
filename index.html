@@ -47,8 +47,15 @@
                 */
                 map.addSource('tweet-data', {
                     type: 'vector',
-                    url: data_url
+                    url: data_url,
+                    cluster: true,
+                    clusterMaxZoom: 11,
+                    clusterRadius: 50
                 });
+                // going to create 5 layers total:
+                // 1 for single points
+                // 3 for varying cluster densities
+                // 1 for cluster label text
                 map.addLayer({
                     "id": "snowtweets",
                     "type": "symbol",
@@ -58,7 +65,46 @@
                         "icon-image": "marker-15"
                     }
                 });
+                
+                var layers = [
+                    [150, '#f28cb1'],
+                    [20, '#f1f075'],
+                    [0,'#51bbd6']
+                ];
+                
+                layers.forEach(function (layer, i) {
+                    map.addLayer({
+                        "id":"cluster-" + i,
+                        "type": "circle",
+                        "source": "tweet-data",
+                        "paint": {
+                            "circle-color": layer[1],
+                            "circle-radius":18
+                        },
+                        "filter": i === 0 ?
+                            [">=", "point_count", layer[0]] :
+                            ["all", 
+                                [">=", "point_count", layer[0]],
+                                ["<", "point_count", layers[i - 1][0]]
+                    });
+                 });
+                             
+                 // cluster count label
+                 map.addLayer({
+                    "id": "cluster-count",
+                    "type": "symbol",
+                    "source": "earthquakes",
+                    "layout": {
+                        "text-field": "{point_count}",
+                        "text-font": [
+                             "DIN Offc Pro Medium",
+                             "Arial Unicode MS Bold"
+                        ],
+                        "text-size": 12
+                    }
+                }); 
             });
+                
             map.on('click', function (e) {
                 var features = map.queryRenderedFeatures(e.point, { layers: ['snowtweets'] });
                 if (!features.length) {
