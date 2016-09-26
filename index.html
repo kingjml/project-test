@@ -40,9 +40,11 @@
             });
             var data_url = 'mapbox://m9brady.cisum4gbe0ey52utkxmrua7di-35xnn';
             map.on('load', function() {
+                /*
                 window.setInterval(function() {
                     map.getSource('tweet-data').setData(data_url);
-                }, 10000);               
+                }, 10000);  
+                */
                 map.addSource('tweet-data', {
                     type: 'vector',
                     url: data_url
