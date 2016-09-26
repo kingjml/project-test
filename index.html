@@ -73,7 +73,7 @@
                     .setLngLat(feature.geometry.coordinates)
                     //.setHTML("<b>"+feature.properties.twitter_handle+"</b><br><i>"+feature.properties.tweet_text+"</i><br><iframe src='"+feature.properties.media_url+"/embed/' alt='tweet image' width='100',height='100'>")
                     //.setHTML("<br><b>"+feature.properties.twitter_handle+"</b><br><i>"+feature.properties.tweet_text+"</i><br>")
-                    .setHTML("<b>"+feature.properties.twitter_handle+"</b><p class="alignleft">"+feature.properties.tweet_text+"</p><p class="alignright"><i>"+feature.properties.media_url+"</i></p>")
+                    .setHTML("<b>"+feature.properties.twitter_handle+"</b><p class='alignleft'>"+feature.properties.tweet_text+"</p><p class='alignright'><i>"+feature.properties.media_url+"</i></p>")
                     .addTo(map);
             });
             map.on('mousemove', function (e) {
