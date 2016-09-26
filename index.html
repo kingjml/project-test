@@ -41,13 +41,13 @@
             map.on('load', function() {
                 map.addSource('tweet-data', {
                     type: 'vector',
-                    url: 'mapbox://m9brady.cisum4gbe0ey52utkxmrua7di-83pch'
+                    url: 'mapbox://m9brady.cisum4gbe0ey52utkxmrua7di-35xnn'
                 });
                 map.addLayer({
                     "id": "snowtweets",
                     "type": "symbol",
                     "source": "tweet-data",
-                    "source-layer": "snowtweet_polys",
+                    "source-layer": "snowtweets",
                     "layout": {
                         "icon-image": "marker-15"
                     }
