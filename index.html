@@ -74,7 +74,7 @@
                     //.setHTML("<b>"+feature.properties.twitter_handle+"</b><br><i>"+feature.properties.tweet_text+"</i><br><iframe src=feature.properties.media_url alt='tweet image' width='100',height='100'>")
                     //.setHTML("<br><b>"+feature.properties.twitter_handle+"</b><br><i>"+feature.properties.tweet_text+"</i><br>")
                     //.setHTML("<b>"+feature.properties.twitter_handle+"</b><p>"+feature.properties.tweet_text+"</p><p><i>"+feature.properties.media_url+"</i></p>")
-                    .setHTML("<b>"+feature.properties.twitter_handle+"</b><p>"+feature.properties.tweet_text+"</p><p><iframe src=feature.properties.media_url alt='tweet image' width='100',height='100'></p>")
+                    .setHTML("<b>"+feature.properties.twitter_handle+"</b><p>"+feature.properties.tweet_text+"</p><p><img src=feature.properties.media_url alt='tweet image' width='100',height='100'></p>")
                     .addTo(map);
             });
             map.on('mousemove', function (e) {
