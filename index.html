@@ -24,7 +24,7 @@ var map = L.mapbox.map('map')
     .setView([44, -79.50], 6);
 L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9').addTo(map);
 
-var geojson_file = 'out.json'
+var geojson_file = 'snow_points.geojson'
 
 L.mapbox.featureLayer()
 	.loadURL(geojson_file)
