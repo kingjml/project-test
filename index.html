@@ -24,8 +24,8 @@ var map = L.mapbox.map('map')
     .setView([44, -79.50], 3);
 L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9').addTo(map);
 
+// Snow tweet point layer
 var geojson_file = 'snow_points.geojson'
-
 var snow_points = L.mapbox.featureLayer()
 	.loadURL(geojson_file)
 	.on('ready', function(e) {
@@ -36,7 +36,15 @@ var snow_points = L.mapbox.featureLayer()
 				clusterGroup.addLayer(layer);
 			});
 			map.addLayer(clusterGroup);
+		
+		// Snow tweet popups
+		snow_points.eachLayer(function(layer) {
+			var htmlcontent = '<h2>'+layer.feature.properties.twitter_handle+'<\/h2>' +
+			    '<p>'+layer.feature.properties.tweet_text+'<br \/p>';
+			layer.bindPopup(htmlcontent);
 	});
+
+
 
 </script>
 
