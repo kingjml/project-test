@@ -33,7 +33,8 @@ var geojson_file = 'snow_points.geojson';
 var snow_points = L.mapbox.featureLayer()
 	.loadURL(geojson_file)
 	.on('ready', function(e) {
-		map.fitBounds(snow_points.getBounds());
+		// fit map to bounds of all data points
+		//map.fitBounds(snow_points.getBounds());
 		// setup the clustering group
 		var clusterGroup = new L.MarkerClusterGroup();
 			e.target.eachLayer(function(layer) {
