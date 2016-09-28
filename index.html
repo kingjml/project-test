@@ -26,9 +26,11 @@ L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9').addTo(map);
 
 var geojson_file = 'snow_points.geojson'
 
-L.mapbox.featureLayer()
+var snow_points = L.mapbox.featureLayer()
 	.loadURL(geojson_file)
 	.on('ready', function(e) {
+		map.fitbounds(snow_points.getBounds());
+		// setup the clustering group
 		var clusterGroup = new L.MarkerClusterGroup();
 			e.target.eachLayer(function(layer) {
 				clusterGroup.addLayer(layer);
