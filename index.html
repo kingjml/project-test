@@ -25,7 +25,7 @@ var map = L.mapbox.map('map')
 L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9').addTo(map);
 
 // Snow tweet point layer
-var geojson_file = 'snow_points.geojson'
+var geojson_file = 'snow_points.geojson';
 var snow_points = L.mapbox.featureLayer()
 	.loadURL(geojson_file)
 	.on('ready', function(e) {
