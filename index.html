@@ -57,7 +57,7 @@ var snow_points = L.mapbox.featureLayer()
 		// Snow tweet popups
 		snow_points.eachLayer(function(layer) {
 			if (!layer.feature.properties.media_url) {
-				var htmlcontent = '<h2>'+layer.feature.properties.twitter_handle+'<\/h2><br><small>'+layer.feature.properties.tweet_time+'<\/small>' +
+				var htmlcontent = '<h3>'+layer.feature.properties.twitter_handle+'<\/h3><small>'+layer.feature.properties.tweet_time+'<\/small>' +
 				    '<p>'+layer.feature.properties.tweet_text+'<br \/p>';
 			} else {
 				var img_url = layer.feature.properties.media_url;
