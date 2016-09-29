@@ -36,11 +36,11 @@
 <button id='fit'>Zoom to original extent</button>
 
 <script>
-var map_orig_extent = new L.LatLng([44, -79.50],3);
+var map_orig_extent = L.LatLng(44, -79.50);
 	
 L.mapbox.accessToken = 'pk.eyJ1IjoibTlicmFkeSIsImEiOiJjaXNzNHQ0YmowNmM5MnlwaGh3YjJzd3k3In0.-Fu9YD8Qbrw7xRZ-7Ocn6w';
 var map = L.mapbox.map('map')
-    .setView(map_orig_extent);
+    .setView(map_orig_extent, 3);
 
 
 var baselayers = {
@@ -89,7 +89,7 @@ var snow_points = L.mapbox.featureLayer()
 // add a button that returns to the original map extent
 
 document.getElementById('fit').addEventListener('click', function() {
-    map.setView(map_orig_extent);
+    map.setView(map_orig_extent, 3);
 });
 
 </script>
