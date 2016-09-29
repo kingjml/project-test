@@ -4070,25 +4070,6 @@
       "type": "Feature",
       "properties": {
         "lang": "en",
-        "twitter_handle": "@Jessinaislost",
-        "mongodb_id": "57ec270b103ff5001dccfbbe",
-        "tweet_text": "We explored the sex cave from Game of Thrones with Jon Snow and the Wildling. The owner of the… https://t.co/wxnC05tD7Q",
-        "tweet_time": "2016-09-28T20:24:43+00:00",
-        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/e15/14533641_128884494239328_4226197559556702208_n.jpg?ig_cache_key=MTM0OTUxMTA5OTQ2NDM0MTg0OQ%3D%3D.2"
-      },
-      "geometry": {
-        "coordinates": [
-          -16.88284,
-          65.626225
-        ],
-        "type": "Point"
-      },
-      "id": "57ec270b103ff5001dccfbbe"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "lang": "en",
         "twitter_handle": "@kennassnowshack",
         "mongodb_id": "57ec2b63103ff5001dccfbbf",
         "tweet_text": "3-6 %50 off and Free Cream till Saturday! @ Kenna's Snow Shack https://t.co/X25mhki8rf",
