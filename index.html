@@ -34,22 +34,6 @@ var baselayers = {
 baselayers.Dark.addTo(map);
 L.control.layers(baselayers).addTo(map);
 	
-var extentControl = L.Control.extend({
-	options: {
-		position:'topleft'
-	},
-	onAdd(function(map) {
-		var origBnds = map.getBounds();
-		var container = L.DomUtil.create('div', 'extentControl');
-		$(container).css('background', 'url(i/extent.png) no-repeat 50% 50%').css('width', '26px').css('height', '26px').css('outline', '1px black');
-		$(container).on('click', function () {
-			map.fitBounds(origBnds);
-		});
-		return container; 
-	};
-});
-	
-map.addControl(new extentControl());
 /*
 // temporary embed picture file from insta
 var dummy_img = 'https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14359485_1783094258572210_2020046964690780160_n.jpg?ig_cache_key=MTM0Nzk3Mzg4NTkzMjY4NzEyMQ%3D%3D.2';
