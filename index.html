@@ -58,7 +58,7 @@ var snow_points = L.mapbox.featureLayer()
 			} else {
 				var htmlcontent = '<h2>'+layer.feature.properties.twitter_handle+'<\/h2>' +
 				    '<p>'+layer.feature.properties.tweet_text+'<br \/p>' +
-				    '<img src="'+feature.properties.media_url+'" alt="Instagram" style="width:240px;height=240px;">';
+				    '<img src="'+layer.feature.properties.media_url+'" alt="Instagram" style="width:240px;height=240px;">';
 			}
 			layer.bindPopup(htmlcontent);
 		});
