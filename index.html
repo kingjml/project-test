@@ -21,14 +21,17 @@
 
 <div id='map'></div>
 <br/>
-<button id='fit'>Zoom to original extent</button>
 
 <script>
 //var map_orig_extent = L.LatLng(44, -79.50);
 	
 L.mapbox.accessToken = 'pk.eyJ1IjoibTlicmFkeSIsImEiOiJjaXNzNHQ0YmowNmM5MnlwaGh3YjJzd3k3In0.-Fu9YD8Qbrw7xRZ-7Ocn6w';
-var map = L.mapbox.map('map')
-    .setView([44, -79.50], 3);
+var map = L.mapbox.map('map', {
+	center: [44, -79.50],
+	minZoom:3,
+	maxZoom:20,
+	zoomControl:false
+	});
 
 // leaflet-zoom-min
 map.addControl(new L.Control.ZoomMin());
