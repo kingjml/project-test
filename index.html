@@ -38,7 +38,7 @@ var extentControl = L.Control.extend({
 	options: {
 		position:'topleft'
 	},
-	.onAdd(function(map) {
+	onAdd(function(map) {
 		var origBnds = map.getBounds();
 		var container = L.DomUtil.create('div', 'extentControl');
 		$(container).css('background', 'url(i/extent.png) no-repeat 50% 50%').css('width', '26px').css('height', '26px').css('outline', '1px black');
