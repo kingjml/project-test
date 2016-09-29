@@ -39,9 +39,6 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoibTlicmFkeSIsImEiOiJjaXNzNHQ0YmowNmM5MnlwaGh3YjJzd3k3In0.-Fu9YD8Qbrw7xRZ-7Ocn6w';
 var map = L.mapbox.map('map')
     .setView([44, -79.50], 3);
-
-// move zoom control to right side
-new L.Control.Zoop({position: 'topright'}).addTo(map);
 	
 // add a button that returns to the original map extent
 var map_orig_extent = map.getBounds();
