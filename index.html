@@ -16,6 +16,8 @@
 <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
 <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
 <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+<link rel="stylesheet" href="assets/L.Control.ZoomMin.css" media="screen">
+<script src="assets/L.Control.ZoomMin.js"></script>
 	
 <div id='map'></div>
 
@@ -31,6 +33,7 @@ var map = L.mapbox.map('map', '', {
 	minZoom:3,
 	maxZoom:22
     })
+    .addControl(new L.Control.ZoomMin());
     //.setView([44, -79.50], 3);
 
 var baselayers = {
