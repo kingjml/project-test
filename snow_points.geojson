@@ -8,7 +8,7 @@
         "mongodb_id": "57e9458846fe70001d644511",
         "tweet_text": "#Freezing #rain or #snow #storm preventing you from #running #outdoors? Well that's why… https://t.co/M1WTapRzuv",
         "tweet_time": "2016-09-26T15:58:00+00:00",
-        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/e15/14359993_301972386828260_179024196926439424_n.jpg?ig_cache_key=MTM0NzkyNzMxNTA3MzU0NTQwNw%3D%3D.2"
+        "media_url": null
       },
       "geometry": {
         "coordinates": [
@@ -920,7 +920,7 @@
         "mongodb_id": "57e993ba46fe70001d644542",
         "tweet_text": "there is already snow here and it's only september #notingeorgiaanymore 😒🏔😔❄️\n••\nmy instagram is… https://t.co/vQEziAGoQj",
         "tweet_time": "2016-09-26T21:31:38+00:00",
-        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14474439_1196363323756726_4792182585977470976_n.jpg?ig_cache_key=MTM0ODA5NTIzOTYyMTEwNDk4Mw%3D%3D.2"
+        "media_url": null
       },
       "geometry": {
         "coordinates": [
@@ -6364,6 +6364,1849 @@
         "type": "Point"
       },
       "id": "57ed4ae3103ff5001dccfc37"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@PlattsmouthPets",
+        "mongodb_id": "57ed519e103ff5001dccfc38",
+        "tweet_text": "Mack Snow Leopard Gecko @ Plattsmouth Pets https://t.co/2gF1FCTTnu",
+        "tweet_time": "2016-09-29T17:38:37+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14533645_254002384997388_5431805754401095680_n.jpg?ig_cache_key=MTM1MDE1MjI4Mjc2NzIzMDk1MA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -95.88457,
+          41.01151
+        ],
+        "type": "Point"
+      },
+      "id": "57ed519e103ff5001dccfc38"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@darlingcoleman",
+        "mongodb_id": "57ed5340103ff5001dccfc39",
+        "tweet_text": "Snow Miser ❄️ &amp; Heat Miser 🔥 at the ritznewyork TURNt WEDNESDAY @ajatstorms #drag #gay… https://t.co/IfZ41PriWD",
+        "tweet_time": "2016-09-29T17:45:36+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14448445_237837773285918_7332082943248039936_n.jpg?ig_cache_key=MTM1MDE1NTc5OTM2Mzc0OTQyMQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.99026,
+          40.76089
+        ],
+        "type": "Point"
+      },
+      "id": "57ed5340103ff5001dccfc39"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@kepamer",
+        "mongodb_id": "57ed54b6103ff5001dccfc3a",
+        "tweet_text": "Photo: Snow-dusted trees obscured by fog https://t.co/zTbBWYFwDj",
+        "tweet_time": "2016-09-29T17:51:50+00:00",
+        "media_url": "http://pbs.twimg.com/media/CtiheMcXgAAaikC.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          -123.01214,
+          37.699076
+        ],
+        "type": "Point"
+      },
+      "id": "57ed54b6103ff5001dccfc3a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@PaulAdamsCycles",
+        "mongodb_id": "57ed55f8103ff5001dccfc3b",
+        "tweet_text": "June 2012 &amp; there was still snow on #Cairngorm #Mountain #Cairngorms #Scotland cairngorms @… https://t.co/ZuYn0G4DG7",
+        "tweet_time": "2016-09-29T17:57:11+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/e15/14504658_1306797222677340_4424999402276388864_n.jpg?ig_cache_key=MTM0OTk1MTc2NzI0NDIyMzc5MQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -3.670541,
+          57.133615
+        ],
+        "type": "Point"
+      },
+      "id": "57ed55f8103ff5001dccfc3b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@Lisa_Uncharted",
+        "mongodb_id": "57ed574d103ff5001dccfc3c",
+        "tweet_text": "Our little snow #Bengal Rocket keeping a close watch while i eat my tea. Love his #blue eyes.… https://t.co/z7ifoTqtPq",
+        "tweet_time": "2016-09-29T18:02:53+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14487241_1125360837571970_3216282922420011008_n.jpg?ig_cache_key=MTM1MDE2NDQ4NjExMTU4MzAxNQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.1424,
+          50.3714
+        ],
+        "type": "Point"
+      },
+      "id": "57ed574d103ff5001dccfc3c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@SheilaBlanchett",
+        "mongodb_id": "57ed5a92103ff5001dccfc3d",
+        "tweet_text": "#tatteredflagseries #fadedglory Found on a refrigerator at Mount Snow #election2016🇺🇸 @ Mount Snow https://t.co/hckZpIsGnw",
+        "tweet_time": "2016-09-29T18:16:49+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14488148_1590404061262804_7762377566102487040_n.jpg?ig_cache_key=MTM1MDE3MTUwNTgwNzY3MzY5MA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.894643,
+          42.967676
+        ],
+        "type": "Point"
+      },
+      "id": "57ed5a92103ff5001dccfc3d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@lufiknew",
+        "mongodb_id": "57ed5c2e103ff5001dccfc3e",
+        "tweet_text": "Soviet Snow-Maiden. Snegurochka. Russian Christmas decorations. Soviet Christmas. Russian Santa. Vintage https://t.co/YFTisOg0Xo",
+        "tweet_time": "2016-09-29T18:23:41+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          60.603871,
+          56.903428
+        ],
+        "type": "Point"
+      },
+      "id": "57ed5c2e103ff5001dccfc3e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@Its_ChandlerM",
+        "mongodb_id": "57ed5eac103ff5001dccfc3f",
+        "tweet_text": "Just because it could snow any day now 🤕 @ Jacksonville Beach, Florida https://t.co/xLX2yjSUt8",
+        "tweet_time": "2016-09-29T18:34:20+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14474263_1053215161443866_8693167949185286144_n.jpg?ig_cache_key=MTM1MDE4MDMyMTAyNjY3NzMyOQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -81.3961,
+          30.2841
+        ],
+        "type": "Point"
+      },
+      "id": "57ed5eac103ff5001dccfc3f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@eisabel95",
+        "mongodb_id": "57ed6213103ff5001dccfc40",
+        "tweet_text": "#nationalcoffeeday at my favorite place ever @ Fox in the Snow Cafe https://t.co/iK5E93ZUtd",
+        "tweet_time": "2016-09-29T18:48:50+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14482684_193631014380394_8180837196119408640_n.jpg?ig_cache_key=MTM1MDE4NzYyMzM0MzU1NzcwMw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -82.999354,
+          39.984074
+        ],
+        "type": "Point"
+      },
+      "id": "57ed6213103ff5001dccfc40"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@EsmirnaUribe",
+        "mongodb_id": "57ed6529103ff5001dccfc41",
+        "tweet_text": "Winter Wonderland ❄ \n#TBT Let it snow! ⛄ @ Paoli Peaks - Ski Ride Tube https://t.co/li0aBdr42M",
+        "tweet_time": "2016-09-29T19:02:01+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14540526_398437333614057_7931044509524164608_n.jpg?ig_cache_key=MTM1MDE5NDI2MTYyNjM0Mjk1Mw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -86.51225,
+          38.55558
+        ],
+        "type": "Point"
+      },
+      "id": "57ed6529103ff5001dccfc41"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@bethkaradzas",
+        "mongodb_id": "57ed6763103ff5001dccfc42",
+        "tweet_text": "We found our first snow dog 🐶 @ Brighton, United Kingdom https://t.co/vAiBHMFMpn",
+        "tweet_time": "2016-09-29T19:11:30+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p640x640/14374512_1101066216644828_8052178590319509504_n.jpg?ig_cache_key=MTM1MDE5OTAyNDE0OTc2Mjk0OA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -0.1313,
+          50.8429
+        ],
+        "type": "Point"
+      },
+      "id": "57ed6763103ff5001dccfc42"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@nicoleoli_",
+        "mongodb_id": "57ed6860103ff5001dccfc43",
+        "tweet_text": "The 7 Dwarfs &amp; their blonde Snow White;))❤️ @ Huntington High School… https://t.co/mEiJy8omGz",
+        "tweet_time": "2016-09-29T19:15:43+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14540560_1803988269881300_5838764162078998528_n.jpg?ig_cache_key=MTM1MDIwMTE2MjY4MjQ3NzM1Ng%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -82.3986,
+          38.3939
+        ],
+        "type": "Point"
+      },
+      "id": "57ed6860103ff5001dccfc43"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@elcoraloense",
+        "mongodb_id": "57ed6956103ff5001dccfc44",
+        "tweet_text": "#Repost @sinosoul\n・・・\nWhen life gives you a snow day (sick) day, @elcoraloense will have… https://t.co/Jpbjqdwhy4",
+        "tweet_time": "2016-09-29T19:19:50+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14533772_291843041200726_8576642041881034752_n.jpg?ig_cache_key=MTM1MDIwMzIyNDA2NTY4NjkzOA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -118.1478,
+          33.962449
+        ],
+        "type": "Point"
+      },
+      "id": "57ed6956103ff5001dccfc44"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@TotalTrafficCHA",
+        "mongodb_id": "57ed6b1b103ff5001dccfc45",
+        "tweet_text": "Accident in #Ooltewah on Snow Hl Rd near Mtn View Rd #traffic https://t.co/vROF4zyOIo",
+        "tweet_time": "2016-09-29T19:27:22+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -85.065,
+          35.0879
+        ],
+        "type": "Point"
+      },
+      "id": "57ed6b1b103ff5001dccfc45"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@asyraf_acha",
+        "mongodb_id": "57ed6efd103ff5001dccfc46",
+        "tweet_text": "The snow is sparkling like a million littl suns🏔\nThis weekend I'll be in Paris, if you guys are… https://t.co/U4m9AzdBvJ",
+        "tweet_time": "2016-09-29T19:43:57+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14504749_702780996539961_2806690462839078912_n.jpg?ig_cache_key=MTM1MDIxNTM2MTM3NDcxNjIzMA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          8.398049,
+          46.793585
+        ],
+        "type": "Point"
+      },
+      "id": "57ed6efd103ff5001dccfc46"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@justin_agramon",
+        "mongodb_id": "57ed6f3c103ff5001dccfc47",
+        "tweet_text": "Juan Snow and his Direwolf... Night's Watch Local Version... #GOTph… https://t.co/8nhgotskhD",
+        "tweet_time": "2016-09-29T19:45:00+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14547781_1775679959359095_8830394220171755520_n.jpg?ig_cache_key=MTM1MDIxNTg5NTI1MDcwNTI4MQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          123.906372,
+          10.327763
+        ],
+        "type": "Point"
+      },
+      "id": "57ed6f3c103ff5001dccfc47"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@DarbyAngle",
+        "mongodb_id": "57ed7219103ff5001dccfc48",
+        "tweet_text": "missing my santa, boots, and gameday❤️ @ Burgess-Snow Field at JSU… https://t.co/JPGLgFLTsO",
+        "tweet_time": "2016-09-29T19:57:13+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14448304_312288152469725_2625373479226048512_n.jpg?ig_cache_key=MTM1MDIyMjAzOTQwMzQ4OTQ0Mw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.7664,
+          33.8203
+        ],
+        "type": "Point"
+      },
+      "id": "57ed7219103ff5001dccfc48"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@iembot_akq",
+        "mongodb_id": "57ed7356103ff5001dccfc49",
+        "tweet_text": "At 3:58 PM, 4 NNE Snow Hill [Worcester Co, MD] 911 CALL CENTER reports FLASH FLOOD #AKQ https://t.co/9TWQLtl22P",
+        "tweet_time": "2016-09-29T20:02:29+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -75.38,
+          38.23
+        ],
+        "type": "Point"
+      },
+      "id": "57ed7356103ff5001dccfc49"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@BHS_rj",
+        "mongodb_id": "57ed744a103ff5001dccfc4a",
+        "tweet_text": "Yes, sledding on the grass. Some folks just can't wait for snow...  #creative #sledding… https://t.co/U94mUT4haP",
+        "tweet_time": "2016-09-29T20:06:34+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14482951_104562783343909_2735007729251778560_n.jpg?ig_cache_key=MTM1MDIyNjc0MDA0NDAxODU2Nw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.63084,
+          43.20056
+        ],
+        "type": "Point"
+      },
+      "id": "57ed744a103ff5001dccfc4a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@fuckoshima311",
+        "mongodb_id": "57ed75a1103ff5001dccfc4b",
+        "tweet_text": "@GovernmentRF the greatest Russians in the world love me?I'm moving into the sea&amp;snow!jonas123 thedayaftertomorrow https://t.co/b1BEgrSm1l",
+        "tweet_time": "2016-09-29T20:12:16+00:00",
+        "media_url": "http://pbs.twimg.com/media/CtjBlHsW8AAVbFp.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          6.1628,
+          53.317115
+        ],
+        "type": "Point"
+      },
+      "id": "57ed75a1103ff5001dccfc4b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@KeilaJirel",
+        "mongodb_id": "57ed7c43103ff5001dccfc4c",
+        "tweet_text": "Oktoberfest+Justin+Snow= One happy Keila 😊 #WinterIsComing @ Snowbird Ski Resort https://t.co/pYg9UcfTHR",
+        "tweet_time": "2016-09-29T20:40:34+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p640x640/14334278_303831796676104_3254054591397888000_n.jpg?ig_cache_key=MTM1MDI0Mzg1Mzk5NTU5NTI0MA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.645106,
+          40.561142
+        ],
+        "type": "Point"
+      },
+      "id": "57ed7c43103ff5001dccfc4c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@SBSKIING",
+        "mongodb_id": "57ed7d24103ff5001dccfc4d",
+        "tweet_text": "These babies will soon be loaded with snow we hope! @SBSKIING #megève #alps #frenchalps #clouds… https://t.co/16GHhLjBGw",
+        "tweet_time": "2016-09-29T20:44:20+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14515818_191578574579056_6937057943288283136_n.jpg?ig_cache_key=MTM1MDI0NTc1OTMxNjA1NjIyNw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          6.61667,
+          45.8667
+        ],
+        "type": "Point"
+      },
+      "id": "57ed7d24103ff5001dccfc4d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@BOS311x",
+        "mongodb_id": "57ed804c103ff5001dccfc4e",
+        "tweet_text": "Opened Illegal Graffiti report via iphone at Intersection Of Hull St &amp; Snow Hill St https://t.co/57LRucQkpk. https://t.co/f0RYJEOoxY",
+        "tweet_time": "2016-09-29T20:57:47+00:00",
+        "media_url": "http://pbs.twimg.com/media/CtjMB_mWcAE2RJl.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          -71.056381,
+          42.367071
+        ],
+        "type": "Point"
+      },
+      "id": "57ed804c103ff5001dccfc4e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@MrChaoticGaming",
+        "mongodb_id": "57ed86f8103ff5001dccfc4f",
+        "tweet_text": "I can see the forest in her eyes. She's so mesmerized by it. #OakGlen @ Snow-Line Orchard and… https://t.co/YyGR2Kret9",
+        "tweet_time": "2016-09-29T21:26:16+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14478398_2134160076809334_136968680322891776_n.jpg?ig_cache_key=MTM1MDI2Njg2NjAyNjg4ODM1Mw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -116.94767,
+          34.044321
+        ],
+        "type": "Point"
+      },
+      "id": "57ed86f8103ff5001dccfc4f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@jenny_541999",
+        "mongodb_id": "57ed86f9103ff5001dccfc50",
+        "tweet_text": "They make me happy 😍😩❤️ @ Snow Monster https://t.co/jiHbJKyFJ9",
+        "tweet_time": "2016-09-29T21:26:17+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14350360_554472768086794_3863210228191330304_n.jpg?ig_cache_key=MTM1MDI2Njg2MzU1MjMwMTIxOQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -117.988826,
+          33.709588
+        ],
+        "type": "Point"
+      },
+      "id": "57ed86f9103ff5001dccfc50"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@KiannaBanks",
+        "mongodb_id": "57ed8a14103ff5001dccfc51",
+        "tweet_text": "We talkin hard or soft RT @Moca_NoLatte: Nigga 5 inch dick is very small and I hope you don’t relate 😒 https://t.co/ucfWDEsgAs",
+        "tweet_time": "2016-09-29T21:39:31+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -71.666587,
+          42.266364
+        ],
+        "type": "Point"
+      },
+      "id": "57ed8a14103ff5001dccfc51"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@PACIFICPRIZM",
+        "mongodb_id": "57ed8b24103ff5001dccfc52",
+        "tweet_text": "The lifts stop spinning on Monday but we still get excited when it snow...especially this much!… https://t.co/rdRAdZ97ri",
+        "tweet_time": "2016-09-29T21:44:03+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14540402_1503252783021861_2590667205716738048_n.jpg?ig_cache_key=MTM1MDI3NTgyMDcxNDk0MDAxMg%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          150.820873,
+          -34.054759
+        ],
+        "type": "Point"
+      },
+      "id": "57ed8b24103ff5001dccfc52"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@kennassnowshack",
+        "mongodb_id": "57ed8d85103ff5001dccfc53",
+        "tweet_text": "Last Weekend. Get free cream! @ Kenna's Snow Shack https://t.co/lUgC4uY7Eb",
+        "tweet_time": "2016-09-29T21:54:13+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14449308_1819656874937677_8969465896871395328_n.jpg?ig_cache_key=MTM1MDI4MDkzMTUyNTQ2OTE3NA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.957988,
+          40.60907
+        ],
+        "type": "Point"
+      },
+      "id": "57ed8d85103ff5001dccfc53"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@LegiScanNJ",
+        "mongodb_id": "57ed904a103ff5001dccfc54",
+        "tweet_text": "A3381 [Engross] Authorizes municipal volunteer programs for free removal of snow from certain residential propert... https://t.co/OjHq3Rq49s",
+        "tweet_time": "2016-09-29T22:06:02+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -74.77014,
+          40.22028
+        ],
+        "type": "Point"
+      },
+      "id": "57ed904a103ff5001dccfc54"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@ChrisAcross",
+        "mongodb_id": "57ed99cf103ff5001dccfc55",
+        "tweet_text": "“There she blows!-there she blows! A hump like a snow-hill!” Not quite my Moby Dick, but you can… https://t.co/31lTv4L5mO",
+        "tweet_time": "2016-09-29T22:46:39+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14369086_534759773381927_7630749634662498304_n.jpg?ig_cache_key=MTM1MDMwNzMxNjU4MjcwMTAxNg%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -78.8175,
+          -1.469166
+        ],
+        "type": "Point"
+      },
+      "id": "57ed99cf103ff5001dccfc55"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@PACIFICPRIZM",
+        "mongodb_id": "57eda18b103ff5001dccfc56",
+        "tweet_text": "Just incase you missed it... \n40% OFF - 4 DAY SNOW SALE - THIS LONG WEEKEND. \nThe long weekend… https://t.co/63pRzXoFie",
+        "tweet_time": "2016-09-29T23:19:39+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14482854_1094703627284232_9222882350453489664_n.jpg?ig_cache_key=MTM1MDMyMzkzNjk1NjU2NTc0Ng%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          150.820873,
+          -34.054759
+        ],
+        "type": "Point"
+      },
+      "id": "57eda18b103ff5001dccfc56"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@kepamer",
+        "mongodb_id": "57eda366103ff5001dccfc57",
+        "tweet_text": "Picture of trees in a snow-covered field in Latvia https://t.co/4v491JCYHp",
+        "tweet_time": "2016-09-29T23:27:34+00:00",
+        "media_url": "http://pbs.twimg.com/media/CtjuUGPW8AATB_g.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          -123.011428,
+          37.699274
+        ],
+        "type": "Point"
+      },
+      "id": "57eda366103ff5001dccfc57"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@PrimoProblems01",
+        "mongodb_id": "57eda4a4103ff5001dccfc58",
+        "tweet_text": "From top to bottom: the Martin roll, Snow White roll and a Mahwah Roll. Made with precision.… https://t.co/jNAsaIAsxm",
+        "tweet_time": "2016-09-29T23:32:52+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14360058_649431585231730_5067254024147828736_n.jpg?ig_cache_key=MTM1MDMzMDU3NTQ4MzIwMjI0NA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.15141,
+          41.11578
+        ],
+        "type": "Point"
+      },
+      "id": "57eda4a4103ff5001dccfc58"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@sonya415",
+        "mongodb_id": "57eda593103ff5001dccfc59",
+        "tweet_text": "Adult Snow Cone, anyone?!? #fbcarnival2016 #pricklypear @ Facebook HQ https://t.co/rALCcJhkOi",
+        "tweet_time": "2016-09-29T23:36:51+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p640x640/14504785_177005632703243_7789242131272433664_n.jpg?ig_cache_key=MTM1MDMzMjE5NTQyNDQ3MzU2MQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.148969,
+          37.483909
+        ],
+        "type": "Point"
+      },
+      "id": "57eda593103ff5001dccfc59"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@pcdunham",
+        "mongodb_id": "57eda6f9103ff5001dccfc5a",
+        "tweet_text": "@SBarlow_ROB yeah @Ana1Sima has told me about them. I’d be like the younger brother on a Christmas story that can’t move in the snow suit.",
+        "tweet_time": "2016-09-29T23:42:49+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -90.120086,
+          30.002723
+        ],
+        "type": "Point"
+      },
+      "id": "57eda6f9103ff5001dccfc5a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@_sarahabu",
+        "mongodb_id": "57edaaa3103ff5001dccfc5b",
+        "tweet_text": "Sorry Snow but I think your seven dwarfs like me more 😏💎⛏ @ Mickey's Not-So-Scary Halloween Party https://t.co/YSgn6wFpQ0",
+        "tweet_time": "2016-09-29T23:58:26+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14540528_303720426687223_3250958521272893440_n.jpg?ig_cache_key=MTM1MDM0MzQ0OTAwMTc0MDgxOQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -81.580592,
+          28.418217
+        ],
+        "type": "Point"
+      },
+      "id": "57edaaa3103ff5001dccfc5b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@DWalters",
+        "mongodb_id": "57edaab2103ff5001dccfc5c",
+        "tweet_text": "So long rainy #Toronto. You're almost there for snow... (at @TorontoPearson International Airport) https://t.co/omkPOwJ47a",
+        "tweet_time": "2016-09-29T23:58:41+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -79.612739,
+          43.681723
+        ],
+        "type": "Point"
+      },
+      "id": "57edaab2103ff5001dccfc5c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@oliviakeyy",
+        "mongodb_id": "57edab70103ff5001dccfc5d",
+        "tweet_text": "#tbt to this cute, creepy snow cat ghoul at the Sapporo snow festival @ Sapporo https://t.co/8YOjkkfj9u",
+        "tweet_time": "2016-09-30T00:01:52+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14515803_1392803850737380_2716743209026846720_n.jpg?ig_cache_key=MTM1MDM0NTE3MjY1OTIyMjkyOA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          141.355628,
+          43.050254
+        ],
+        "type": "Point"
+      },
+      "id": "57edab70103ff5001dccfc5d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@iamAJGutierrez",
+        "mongodb_id": "57edb294103ff5001dccfc5e",
+        "tweet_text": "Let it snow...let it snow...let it snow... 💦💦💦 #snowexperience #seoulsearching #seoulkorea… https://t.co/nUbmVamuiH",
+        "tweet_time": "2016-09-30T00:32:20+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/e35/14449314_1226037044126380_7789205095769440256_n.jpg?ig_cache_key=MTM1MDM2MDUwMTQzMDgxNDAwMQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          126.977,
+          37.5689
+        ],
+        "type": "Point"
+      },
+      "id": "57edb294103ff5001dccfc5e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@chipfunky",
+        "mongodb_id": "57edb2eb103ff5001dccfc5f",
+        "tweet_text": "I'm at College Street Music Hall for Miike Snow Fan Presale in New Haven, CT https://t.co/EfYmqACRgp",
+        "tweet_time": "2016-09-30T00:33:46+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -72.929737,
+          41.306608
+        ],
+        "type": "Point"
+      },
+      "id": "57edb2eb103ff5001dccfc5f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@mandbvintage",
+        "mongodb_id": "57edb709103ff5001dccfc60",
+        "tweet_text": "shut. up. Jack Rogers makes rain/snow boots. #♥️ #JackRogers @ Upper East Side https://t.co/zv9SOrjdKZ",
+        "tweet_time": "2016-09-30T00:51:21+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14547674_1853752654839599_87097508651597824_n.jpg?ig_cache_key=MTM1MDM3MDA4Mzg4MDUyMjExNw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.965555,
+          40.769166
+        ],
+        "type": "Point"
+      },
+      "id": "57edb709103ff5001dccfc60"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@YourKHAIness",
+        "mongodb_id": "57edb7de103ff5001dccfc61",
+        "tweet_text": "Boba over errythang. (@ Snow Monster in Long Beach, Calif) https://t.co/6uPcQmjxCK",
+        "tweet_time": "2016-09-30T00:54:54+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -118.134882,
+          33.760432
+        ],
+        "type": "Point"
+      },
+      "id": "57edb7de103ff5001dccfc61"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@morbital",
+        "mongodb_id": "57edba41103ff5001dccfc62",
+        "tweet_text": "regram @mt_seymour\nWant to win a Mt Seymour season pass to play in the snow this coming winter?… https://t.co/JBzUwHvVWg",
+        "tweet_time": "2016-09-30T01:05:05+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14482742_1215405675184533_8236359930571915264_n.jpg?ig_cache_key=MTM1MDM3Njk5NDI1NjYxNTQ1Ng%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.950315,
+          49.364656
+        ],
+        "type": "Point"
+      },
+      "id": "57edba41103ff5001dccfc62"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@zoeskeet",
+        "mongodb_id": "57edbc57103ff5001dccfc63",
+        "tweet_text": "Add me on the app snow yo snowapp_  rspagan - I'm obessed. Thank you for sharing 💕🤘🏼 @ Logan Square https://t.co/ShAfSuz81M",
+        "tweet_time": "2016-09-30T01:13:58+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p640x640/14482825_346956598975800_8727415687691108352_n.jpg?ig_cache_key=MTM1MDM4MTQ2MjUxNTg1NjkwMw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -87.700133,
+          41.940513
+        ],
+        "type": "Point"
+      },
+      "id": "57edbc57103ff5001dccfc63"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@lockhart_jesse",
+        "mongodb_id": "57edbe82103ff5001dccfc64",
+        "tweet_text": "If Santa class ate Christmas Cookies, took a poop, and brewed it, it would be #FunkyBuddah Last Snow 😋",
+        "tweet_time": "2016-09-30T01:23:14+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -80.261708,
+          26.063837
+        ],
+        "type": "Point"
+      },
+      "id": "57edbe82103ff5001dccfc64"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@Sydney_Marks13",
+        "mongodb_id": "57edc188103ff5001dccfc65",
+        "tweet_text": "Have you ever sat out in the rain or snow to watch someone play soccer? I have and I would say… https://t.co/DXKWIKBJI0",
+        "tweet_time": "2016-09-30T01:36:08+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p640x640/14448448_1787848078139837_2359558760730460160_n.jpg?ig_cache_key=MTM1MDM5MjYyMjkxMzM3NTY5OQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -85.730875,
+          39.996057
+        ],
+        "type": "Point"
+      },
+      "id": "57edc188103ff5001dccfc65"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@NormaJeanDancer",
+        "mongodb_id": "57edc3df103ff5001dccfc66",
+        "tweet_text": "Wow,  the \"marine layer\" forming over Point Loma looks like snow… https://t.co/6efT0hH6jK",
+        "tweet_time": "2016-09-30T01:46:06+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14474437_305194813186857_5021064378183581696_n.jpg?ig_cache_key=MTM1MDM5NzY1MDgwMDk3MzM0MQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -117.178568,
+          32.680608
+        ],
+        "type": "Point"
+      },
+      "id": "57edc3df103ff5001dccfc66"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@adammperdue",
+        "mongodb_id": "57edc483103ff5001dccfc67",
+        "tweet_text": "Excellent! - Drinking a Last Snow (2016) by @FunkyBuddhaBrew at @rockandbrews  — https://t.co/ndPBqQaiJ3",
+        "tweet_time": "2016-09-30T01:48:50+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -81.2477,
+          28.6476
+        ],
+        "type": "Point"
+      },
+      "id": "57edc483103ff5001dccfc67"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@Kentangg",
+        "mongodb_id": "57edc5c5103ff5001dccfc68",
+        "tweet_text": "Queen Snow ❤️ @ Disney's Hollywood Studios https://t.co/UCwvSLjNfr",
+        "tweet_time": "2016-09-30T01:54:12+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -81.558889,
+          28.358333
+        ],
+        "type": "Point"
+      },
+      "id": "57edc5c5103ff5001dccfc68"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@ScottRicks",
+        "mongodb_id": "57edcb20103ff5001dccfc69",
+        "tweet_text": "Last weekend, we had our first snow of the year in Utah and I started thinking about how summer… https://t.co/EAQuVntii6",
+        "tweet_time": "2016-09-30T02:17:04+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14549939_1188181041240770_944085840894623744_n.jpg?ig_cache_key=MTM1MDQxMzIyMTcxODY1MDM0Mg%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.906437,
+          41.006566
+        ],
+        "type": "Point"
+      },
+      "id": "57edcb20103ff5001dccfc69"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@Falls_Creek",
+        "mongodb_id": "57edcd26103ff5001dccfc6a",
+        "tweet_text": "It's a pow morning... and tomorrow it's October. Enjoy it folks, 2 days left to enjoy the snow!… https://t.co/oEEByDMctl",
+        "tweet_time": "2016-09-30T02:25:42+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14474309_573497436186652_5854931664521658368_n.jpg?ig_cache_key=MTM1MDQxNzU3NTkwOTA4Mzc5Ng%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          147.273837,
+          -36.865541
+        ],
+        "type": "Point"
+      },
+      "id": "57edcd26103ff5001dccfc6a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@munchienee",
+        "mongodb_id": "57edd0b8103ff5001dccfc6b",
+        "tweet_text": "Be the snow of your lips 👌 #snowlips @ Keeffaa Coffee https://t.co/zB4m316Q6Z",
+        "tweet_time": "2016-09-30T02:40:55+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p640x640/14473905_311838635844217_8889121511328186368_n.jpg?ig_cache_key=MTM1MDQyNTIzOTA3MDMyMzI1OA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          122.559515,
+          10.720422
+        ],
+        "type": "Point"
+      },
+      "id": "57edd0b8103ff5001dccfc6b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@ClabWeatherBot",
+        "mongodb_id": "57edd532103ff5001dccfc6c",
+        "tweet_text": "Hay  grados Celsius - A lot of people like snow. I find it to be an unnecessary freezing of water",
+        "tweet_time": "2016-09-30T03:00:02+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -3.837855,
+          40.405547
+        ],
+        "type": "Point"
+      },
+      "id": "57edd532103ff5001dccfc6c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@JusRozYo",
+        "mongodb_id": "57edd5aa103ff5001dccfc6d",
+        "tweet_text": "Feels like it's about to snow.. #Vail @ Vail, Colorado https://t.co/XOQZjzAUoU",
+        "tweet_time": "2016-09-30T03:02:01+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14499044_790202681082236_3880906773351104512_n.jpg?ig_cache_key=MTM1MDQzNTg1OTAzMTE3NzE1Nw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.363,
+          39.6358
+        ],
+        "type": "Point"
+      },
+      "id": "57edd5aa103ff5001dccfc6d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@teri_harrington",
+        "mongodb_id": "57edd5c9103ff5001dccfc6e",
+        "tweet_text": "You guys, there's something called shave ice -- a GIANT mound of soft ice, not as hard as a snow… https://t.co/FEMAFtaqLk",
+        "tweet_time": "2016-09-30T03:02:33+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p640x640/14449349_1583062571998880_1018879032747360256_n.jpg?ig_cache_key=MTM1MDQzNjEyNTgzOTQwMTkxMw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -159.66665,
+          21.95505
+        ],
+        "type": "Point"
+      },
+      "id": "57edd5c9103ff5001dccfc6e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@FordFoodnDrink",
+        "mongodb_id": "57edd71a103ff5001dccfc6f",
+        "tweet_text": "#tbt last winter when it snowed. 📷by joylessvegan #snow #sepdx #tbhweprefersummer @ Ford Food &amp;… https://t.co/vrnhtwwlFu",
+        "tweet_time": "2016-09-30T03:08:09+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/e35/14515862_1716797251974983_931335397252792320_n.jpg?ig_cache_key=MTM1MDQzODk0Njc1MjA4OTk2OQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.655319,
+          45.504531
+        ],
+        "type": "Point"
+      },
+      "id": "57edd71a103ff5001dccfc6f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@TayLaSole",
+        "mongodb_id": "57edda15103ff5001dccfc70",
+        "tweet_text": "Snow on tha bluff 2 already on YouTube wit snoop https://t.co/jKXZnhXGa8",
+        "tweet_time": "2016-09-30T03:20:53+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -75.691896,
+          38.224077
+        ],
+        "type": "Point"
+      },
+      "id": "57edda15103ff5001dccfc70"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@kepamer",
+        "mongodb_id": "57edde81103ff5001dccfc71",
+        "tweet_text": "Picture of a farmhouse in the snow https://t.co/8XAJMCL9Ek",
+        "tweet_time": "2016-09-30T03:39:44+00:00",
+        "media_url": "http://pbs.twimg.com/media/CtkoB_sWIAAXkxU.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          -123.012387,
+          37.699535
+        ],
+        "type": "Point"
+      },
+      "id": "57edde81103ff5001dccfc71"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@MGCTwest",
+        "mongodb_id": "57ede291103ff5001dccfc72",
+        "tweet_text": "Yellowstone Bear; Snow @ Morning Glory Coffee https://t.co/C924IPUyZ8",
+        "tweet_time": "2016-09-30T03:57:04+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p640x640/14350561_623576767814837_1205607778232565760_n.jpg?ig_cache_key=MTM1MDQ2MzU2MzgxOTMzOTc1MQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.101853,
+          44.661871
+        ],
+        "type": "Point"
+      },
+      "id": "57ede291103ff5001dccfc72"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@karinaMoonWalks",
+        "mongodb_id": "57ede3a1103ff5001dccfc73",
+        "tweet_text": "Miike Snow was 👌🏼 @ College Street Music Hall https://t.co/HEb8lESUCN",
+        "tweet_time": "2016-09-30T04:01:36+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/e15/14474149_211025272650003_8641622745290899456_n.jpg?ig_cache_key=MTM1MDQ2NTg0NDUxMzk0NTI4OA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -72.92954,
+          41.30641
+        ],
+        "type": "Point"
+      },
+      "id": "57ede3a1103ff5001dccfc73"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@edenswoon",
+        "mongodb_id": "57ede432103ff5001dccfc74",
+        "tweet_text": "\"The little thatched cottages and shops were all covered in a layer of crisp snow.\" @ Hogsmeade… https://t.co/wB7UW9nYaC",
+        "tweet_time": "2016-09-30T04:04:02+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14533775_1757601201147080_7835754531144073216_n.jpg?ig_cache_key=MTM1MDQ2NzA2ODMxODc1MDQwNA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -118.353858,
+          34.138239
+        ],
+        "type": "Point"
+      },
+      "id": "57ede432103ff5001dccfc74"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@DJESSO",
+        "mongodb_id": "57ede436103ff5001dccfc75",
+        "tweet_text": "@Jeezy pulled up on ME x djdondemarco earlier. My nilla said \"ESSO\" it's \"Snow Season\"… https://t.co/xyfuBN78h9",
+        "tweet_time": "2016-09-30T04:04:05+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14487209_1836260999926151_4168070648993677312_n.jpg?ig_cache_key=MTM1MDQ2NzA4Mzc4NzY1OTU4OQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -74.0064,
+          40.7142
+        ],
+        "type": "Point"
+      },
+      "id": "57ede436103ff5001dccfc75"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@RonanHunt88",
+        "mongodb_id": "57ede6fc103ff5001dccfc76",
+        "tweet_text": "First Siberian snow of the season! #Mongolia #snow #bbrrr #8monthsfrozen #transmongolian @… https://t.co/SGMDDZ1gz0",
+        "tweet_time": "2016-09-30T04:15:55+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14448236_1773656539555826_3699995311960227840_n.jpg?ig_cache_key=MTM1MDQ3MzA1Mzc0MTc3MTk0NQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          106.928995,
+          47.915806
+        ],
+        "type": "Point"
+      },
+      "id": "57ede6fc103ff5001dccfc76"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@moomookau",
+        "mongodb_id": "57edeaa5103ff5001dccfc77",
+        "tweet_text": "mango snow ice to celebrate fridayyyy @ 味香園 Mei Heong Yuen @ Chinatown https://t.co/pCFsCvTjN8",
+        "tweet_time": "2016-09-30T04:31:33+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14359451_247615248974237_5198003102199840768_n.jpg?ig_cache_key=MTM1MDQ4MDkxMTQ2ODQ3MjczNw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          103.843312,
+          1.283531
+        ],
+        "type": "Point"
+      },
+      "id": "57edeaa5103ff5001dccfc77"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@maryclingy",
+        "mongodb_id": "57edeba1103ff5001dccfc78",
+        "tweet_text": "dessert 🍧🍨 (@ Snow Boom in Taft avenue, Manila City) https://t.co/WeYvp4vYrA",
+        "tweet_time": "2016-09-30T04:35:45+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          120.994714,
+          14.56324
+        ],
+        "type": "Point"
+      },
+      "id": "57edeba1103ff5001dccfc78"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@jennantonia",
+        "mongodb_id": "57ededdf103ff5001dccfc79",
+        "tweet_text": "Thanks for a fun date night ericeyman, love you boo thang! 😍❤️ @ Snow Monster Belmont Shore https://t.co/pLpaoRoQ1Q",
+        "tweet_time": "2016-09-30T04:45:18+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14515851_1673046949690965_7214317108950204416_n.jpg?ig_cache_key=MTM1MDQ4Nzg0NDkwNDMyMTMzMw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -118.134755,
+          33.760424
+        ],
+        "type": "Point"
+      },
+      "id": "57ededdf103ff5001dccfc79"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@pwpeiwen",
+        "mongodb_id": "57edf22f103ff5001dccfc7a",
+        "tweet_text": "I'm at First Snow https://t.co/WOWfdNG24H",
+        "tweet_time": "2016-09-30T05:03:43+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          100.642695,
+          13.76743
+        ],
+        "type": "Point"
+      },
+      "id": "57edf22f103ff5001dccfc7a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@Kiki_MissBlack",
+        "mongodb_id": "57edf994103ff5001dccfc7b",
+        "tweet_text": "It was dark and i had that rain gear on Rain Sleet or Snow... Bey… https://t.co/ZaXw4pgfI9",
+        "tweet_time": "2016-09-30T05:35:16+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/e15/14448196_1799256313687802_3758218515690029056_n.jpg?ig_cache_key=MTM1MDUxMjk0NTMzMTYxNDQ1Nw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.167737,
+          39.901952
+        ],
+        "type": "Point"
+      },
+      "id": "57edf994103ff5001dccfc7b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@BlackDiamondAMD",
+        "mongodb_id": "57ee0053103ff5001dccfc7c",
+        "tweet_text": "I love the smell of snowflakes in the morning! @ Falls Creek Snow Resort https://t.co/bo5wPXoCrr",
+        "tweet_time": "2016-09-30T06:04:02+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/e15/14334483_297977080588737_7219695279883157504_n.jpg?ig_cache_key=MTM1MDUyNzQ1MDU1MTIzNTg1NA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          147.281675,
+          -36.86374
+        ],
+        "type": "Point"
+      },
+      "id": "57ee0053103ff5001dccfc7c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@Jirisudapop",
+        "mongodb_id": "57ee1080103ff5001dccfc7d",
+        "tweet_text": "I'm at snow castle https://t.co/hpRq7Og0kM",
+        "tweet_time": "2016-09-30T07:13:03+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          100.539474,
+          13.858292
+        ],
+        "type": "Point"
+      },
+      "id": "57ee1080103ff5001dccfc7d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@paultemps",
+        "mongodb_id": "57ee130d103ff5001dccfc7e",
+        "tweet_text": "I'm at Snow Boom in Taft avenue, Manila City w/ @albinmolina https://t.co/DqCJpLyz6X",
+        "tweet_time": "2016-09-30T07:23:57+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          120.994714,
+          14.56324
+        ],
+        "type": "Point"
+      },
+      "id": "57ee130d103ff5001dccfc7e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@54321Aaaah",
+        "mongodb_id": "57ee18eb103ff5001dccfc7f",
+        "tweet_text": "@Jkiley_ blackouts, rain, snow, floods , but footy tomorra #AFLGF @MillwallFC so really, lovin it😀😃cheers mate🍻 https://t.co/Qj7X4qNJVI",
+        "tweet_time": "2016-09-30T07:48:59+00:00",
+        "media_url": "http://pbs.twimg.com/media/CtlhEwgVMAA6Bw5.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          138.637036,
+          -34.909958
+        ],
+        "type": "Point"
+      },
+      "id": "57ee18eb103ff5001dccfc7f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@nidashofura",
+        "mongodb_id": "57ee1918103ff5001dccfc80",
+        "tweet_text": "Strawberry snow ice ⛄🍦🍴\n.\n.\n.\n.\n.\n.\n#latepost @ Ah Poong https://t.co/7CmYs97O38",
+        "tweet_time": "2016-09-30T07:49:44+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14360074_548089538720933_1885394104964087808_n.jpg?ig_cache_key=MTM1MDU4MDY2NTA2MTYwNzM1MA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          106.850448,
+          -6.558732
+        ],
+        "type": "Point"
+      },
+      "id": "57ee1918103ff5001dccfc80"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@cesargeorgiy",
+        "mongodb_id": "57ee1cb0103ff5001dccfc81",
+        "tweet_text": "First #snow in mountains. Tomorrow I'll go up there. -14C* @ Lofthus, Hordaland, Norway https://t.co/QhKQ7huTjD",
+        "tweet_time": "2016-09-30T08:05:04+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14474319_260457814354230_7195330119391510528_n.jpg?ig_cache_key=MTM1MDU4ODM3ODI2OTU4NjE1OA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          6.66667,
+          60.3333
+        ],
+        "type": "Point"
+      },
+      "id": "57ee1cb0103ff5001dccfc81"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@RochowSC",
+        "mongodb_id": "57ee1d8a103ff5001dccfc82",
+        "tweet_text": "Early snow in the Rocky Mountains. @ Provo City https://t.co/Lo6nvn46zo",
+        "tweet_time": "2016-09-30T08:08:42+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14052619_1302876826412746_5150688415322210304_n.jpg?ig_cache_key=MTM1MDU5MDIxNjM5NzkwNDAyNA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.661636,
+          40.234793
+        ],
+        "type": "Point"
+      },
+      "id": "57ee1d8a103ff5001dccfc82"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@UnlistedC",
+        "mongodb_id": "57ee24df103ff5001dccfc83",
+        "tweet_text": "🇸🇬 Saffron paella, pan-fried red snapper, chorizo and snow peas at… https://t.co/Zift7o7iMJ",
+        "tweet_time": "2016-09-30T08:39:58+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p640x640/14478431_256231024777843_8467121810352111616_n.jpg?ig_cache_key=MTM0NzY2OTMwOTU3NjcyMDQ2Mw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          103.842093,
+          1.279925
+        ],
+        "type": "Point"
+      },
+      "id": "57ee24df103ff5001dccfc83"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@gomontgenevre",
+        "mongodb_id": "57ee273b103ff5001dccfc84",
+        "tweet_text": "Anyone else excited about winter? #montgenevre #snow #powder #ski #snowboard #skitrip #holiday… https://t.co/aWTe6ufueo",
+        "tweet_time": "2016-09-30T08:50:03+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14547642_2113109405581725_1837259994160955392_n.jpg?ig_cache_key=MTM1MDYxMTAxMzQ3Njk5MTkxMw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          6.725202,
+          44.932069
+        ],
+        "type": "Point"
+      },
+      "id": "57ee273b103ff5001dccfc84"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@maykellogs",
+        "mongodb_id": "57ee28ca103ff5001dccfc85",
+        "tweet_text": "I'll stop the world and melt with you.  #snow @ Gateway Araneta Center Cubao https://t.co/6pJe8YcL1m",
+        "tweet_time": "2016-09-30T08:56:41+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14547846_1809548055946182_437264066285666304_n.jpg?ig_cache_key=MTM1MDYxNDM2MDg4Mzc3NjE4NQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          121.052329,
+          14.62194
+        ],
+        "type": "Point"
+      },
+      "id": "57ee28ca103ff5001dccfc85"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@grabyourfork",
+        "mongodb_id": "57ee2c2c103ff5001dccfc86",
+        "tweet_text": "Snow cheese Korean fried chicken from Sparrow's Mill with a side of som tam papaya salad from… https://t.co/dnLtFg93GO",
+        "tweet_time": "2016-09-30T09:11:08+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14474202_1846359595650246_3069128868888576000_n.jpg?ig_cache_key=MTM1MDYyMTYzNDk0ODQ0ODc1Nw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          151.204461,
+          -33.878134
+        ],
+        "type": "Point"
+      },
+      "id": "57ee2c2c103ff5001dccfc86"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@Inest98",
+        "mongodb_id": "57ee2e6f103ff5001dccfc87",
+        "tweet_text": "Was a long and dark December\nFrom the rooftops I remember\nThere was snow.\" @ Violet Hill https://t.co/C3O9S1qccx",
+        "tweet_time": "2016-09-30T09:20:46+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14482034_1793706200907616_635814451555074048_n.jpg?ig_cache_key=MTM1MDYyNjQ5MDQ3NTEyMjQ4Ng%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -80.065667,
+          44.11225
+        ],
+        "type": "Point"
+      },
+      "id": "57ee2e6f103ff5001dccfc87"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@onamtreat",
+        "mongodb_id": "57ee3df3103ff5001dccfc88",
+        "tweet_text": "Snow covered manimahesh, there is sign of OM @ Manimahesh Kailash Yatra https://t.co/6W5GaouTSF",
+        "tweet_time": "2016-09-30T10:26:58+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s480x480/e35/14482879_356718948002273_1646789864009498624_n.jpg?ig_cache_key=MTM1MDY1OTgwODczNDMxMzQ5Mw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          76.55662,
+          32.441989
+        ],
+        "type": "Point"
+      },
+      "id": "57ee3df3103ff5001dccfc88"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@Doowa_HG",
+        "mongodb_id": "57ee3f0e103ff5001dccfc89",
+        "tweet_text": "ได้เหรอ (@ SNOW Bar Cafe in Chatuchak, Bangkok w/ @sobosm) https://t.co/hqUeAvhyqP https://t.co/dK66EoSKS9",
+        "tweet_time": "2016-09-30T10:31:40+00:00",
+        "media_url": "http://pbs.twimg.com/media/CtmGUCUWYAA68OA.jpg"
+      },
+      "geometry": {
+        "coordinates": [
+          100.552034,
+          13.804654
+        ],
+        "type": "Point"
+      },
+      "id": "57ee3f0e103ff5001dccfc89"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@myucan91",
+        "mongodb_id": "57ee4697103ff5001dccfc8a",
+        "tweet_text": "I'm at Snow Shack in Cebu https://t.co/BSdhuoELYJ",
+        "tweet_time": "2016-09-30T11:03:51+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          123.91016,
+          10.328053
+        ],
+        "type": "Point"
+      },
+      "id": "57ee4697103ff5001dccfc8a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@teramaso",
+        "mongodb_id": "57ee46d9103ff5001dccfc8b",
+        "tweet_text": "https://t.co/s1f4c7wULt The first snow hits Norway",
+        "tweet_time": "2016-09-30T11:04:57+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -123.012138,
+          37.699614
+        ],
+        "type": "Point"
+      },
+      "id": "57ee46d9103ff5001dccfc8b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@fayefelia",
+        "mongodb_id": "57ee471e103ff5001dccfc8c",
+        "tweet_text": "With eln.cor and abbygailaxy 😛 @ Yelo A Taste of Snow https://t.co/FfRjxT652G",
+        "tweet_time": "2016-09-30T11:06:06+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14533570_1601066276863062_3610627887322890240_n.jpg?ig_cache_key=MTM1MDY3OTQ5MzY5MzY4MjIwMQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          120.990539,
+          14.599618
+        ],
+        "type": "Point"
+      },
+      "id": "57ee471e103ff5001dccfc8c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@katherinegrac3",
+        "mongodb_id": "57ee4d3a103ff5001dccfc8d",
+        "tweet_text": "cotton candy skies, clear blue waters, snow white sands 😍 #whitesandbeach #sunset #longweekend… https://t.co/nbbIiUYnqn",
+        "tweet_time": "2016-09-30T11:32:10+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14482695_1114880628547498_6352790894650851328_n.jpg?ig_cache_key=MTM1MDY5MjYyNDUwNzQwMjk4NA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          150.693339,
+          -35.103667
+        ],
+        "type": "Point"
+      },
+      "id": "57ee4d3a103ff5001dccfc8d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@epkamo",
+        "mongodb_id": "57ee4f8c103ff5001dccfc8e",
+        "tweet_text": "หลบฝน🌨 (@ SNOW Bar Cafe in Chatuchak, Bangkok) https://t.co/HyOndpwK0o",
+        "tweet_time": "2016-09-30T11:42:04+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          100.552034,
+          13.804654
+        ],
+        "type": "Point"
+      },
+      "id": "57ee4f8c103ff5001dccfc8e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@hemantguru",
+        "mongodb_id": "57ee4fb9103ff5001dccfc8f",
+        "tweet_text": "Memories made in the mountains stay in your hearts forever\n#mountains #snow#clouds #himachal… https://t.co/6EeCIgHPZ9",
+        "tweet_time": "2016-09-30T11:42:49+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p640x640/14549962_111091922689268_8151036398032388096_n.jpg?ig_cache_key=MTM1MDY5Nzk3ODI1MTk5NjYyNA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          76.70691,
+          32.682647
+        ],
+        "type": "Point"
+      },
+      "id": "57ee4fb9103ff5001dccfc8f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@wAnie_aDliNa",
+        "mongodb_id": "57ee5030103ff5001dccfc90",
+        "tweet_text": "I'm at Hussin Snow Car Wash https://t.co/lVW7gVYAg5",
+        "tweet_time": "2016-09-30T11:44:48+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          101.159194,
+          4.647683
+        ],
+        "type": "Point"
+      },
+      "id": "57ee5030103ff5001dccfc90"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@paoissuperhuman",
+        "mongodb_id": "57ee50a1103ff5001dccfc91",
+        "tweet_text": "I'm at Snow Shack in Cebu https://t.co/u9ozQxWvf2",
+        "tweet_time": "2016-09-30T11:46:40+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          123.91016,
+          10.328053
+        ],
+        "type": "Point"
+      },
+      "id": "57ee50a1103ff5001dccfc91"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@capo_of_clifton",
+        "mongodb_id": "57ee52f8103ff5001dccfc92",
+        "tweet_text": "Miike Snow at Radio City. So good. @ Radio City Music Hall https://t.co/yZP4N0W1Ht",
+        "tweet_time": "2016-09-30T11:56:40+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14478472_1799173950368603_4825574861487210496_n.jpg?ig_cache_key=MTM1MDcwNDk1MDE3NTE1ODA1Mw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -73.979756,
+          40.759878
+        ],
+        "type": "Point"
+      },
+      "id": "57ee52f8103ff5001dccfc92"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@BanWAYNEgon15",
+        "mongodb_id": "57ee53d4103ff5001dccfc93",
+        "tweet_text": "Coz it's #NationalCoffeeDay ☕️☔️ with Matt, JL, Tonton &amp; Snow. (@ PUBLIQ Coffee + Beer in Bacolod City) https://t.co/u5rdkD97Dj",
+        "tweet_time": "2016-09-30T12:00:19+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          122.956847,
+          10.684417
+        ],
+        "type": "Point"
+      },
+      "id": "57ee53d4103ff5001dccfc93"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@AdingPhoto",
+        "mongodb_id": "57ee5797103ff5001dccfc94",
+        "tweet_text": "I can't wait to come back here with the mountain is full of snow, one fine day with @travelyukon… https://t.co/KSH9GtUlT5",
+        "tweet_time": "2016-09-30T12:16:23+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14240968_550779935118321_3287611501594017792_n.jpg?ig_cache_key=MTM1MDcxNDg2MTI1NjIwMDQ2MQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -145.364477,
+          62.0113
+        ],
+        "type": "Point"
+      },
+      "id": "57ee5797103ff5001dccfc94"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@AevalLabraid",
+        "mongodb_id": "57ee59ba103ff5001dccfc95",
+        "tweet_text": "Tad cool right now and We're expected to get snow in the mountains… https://t.co/FdsUWaLXCA",
+        "tweet_time": "2016-09-30T12:25:29+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p640x640/14448432_319399221773839_4237211303107624960_n.jpg?ig_cache_key=MTM1MDcxOTQ1NjYyODcwMTg1OA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -122.81,
+          45.4797
+        ],
+        "type": "Point"
+      },
+      "id": "57ee59ba103ff5001dccfc95"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@aiNamAeLdiTa_20",
+        "mongodb_id": "57ee602c103ff5001dccfc96",
+        "tweet_text": "Boom na boom! 🍨 @ Snow Boom Dessert Cafe https://t.co/mEj582Ymof",
+        "tweet_time": "2016-09-30T12:53:00+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14482267_617711495055077_8516412212250673152_n.jpg?ig_cache_key=MTM1MDczMzMwNjUyMjQ5NTgyNw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          120.9946,
+          14.5635
+        ],
+        "type": "Point"
+      },
+      "id": "57ee602c103ff5001dccfc96"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@aiNamAeLdiTa_20",
+        "mongodb_id": "57ee6398103ff5001dccfc97",
+        "tweet_text": "Chocolate shaved ice 😋🍨 @ Snow Boom Dessert Cafe https://t.co/jtavNlywv9",
+        "tweet_time": "2016-09-30T13:07:36+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p640x640/14448362_679187492233403_8213187495383269376_n.jpg?ig_cache_key=MTM1MDc0MDY1MTM2OTM2NDcxOQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          120.9946,
+          14.5635
+        ],
+        "type": "Point"
+      },
+      "id": "57ee6398103ff5001dccfc97"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@imagesbylemke",
+        "mongodb_id": "57ee6743103ff5001dccfc98",
+        "tweet_text": "Snow Leopard in the tree's.\n\n#nikonusa #natgeohub #forest #lancelemke #imagesbylemke… https://t.co/vlIoCztOA6",
+        "tweet_time": "2016-09-30T13:23:15+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14488167_982945618517315_6021902641322262528_n.jpg?ig_cache_key=MTM1MDc0ODUwNjA5MjMyNzM1Ng%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -88.03855,
+          42.96756
+        ],
+        "type": "Point"
+      },
+      "id": "57ee6743103ff5001dccfc98"
     }
   ],
   "type": "FeatureCollection"
