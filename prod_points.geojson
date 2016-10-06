@@ -1,0 +1,670 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@WagsPhoto",
+        "mongodb_id": "57e9498246fe70001d644516",
+        "tweet_text": "One day a tornado, the next snowfall. Wasatch looking fresh. #Powder #Mountain #Snow… ",
+        "tweet_time": "2016-09-26T16:14:57+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14271999_333819536967512_7902716683356209152_n.jpg?ig_cache_key=MTM0NzkzNTg0NzU4ODkyMDk3Mg%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.65667,
+          40.58104
+        ],
+        "type": "Point"
+      },
+      "id": "57e9498246fe70001d644516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@OregonTT",
+        "mongodb_id": "57e9530c46fe70001d644519",
+        "tweet_text": "Mountain Crush Monday!  It's almost time for a new coat of snow to dump itself upon our peaks.… ",
+        "tweet_time": "2016-09-26T16:55:40+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14488324_1692278744431651_1966927148476268544_n.jpg?ig_cache_key=MTM0Nzk1NjMzNzA4MjA2MzExOA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -121.990193,
+          44.473909
+        ],
+        "type": "Point"
+      },
+      "id": "57e9530c46fe70001d644519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@hunnybunny0420",
+        "mongodb_id": "57e9531a46fe70001d64451a",
+        "tweet_text": "@landscapesut is so amazing with a camera. Check out this amazing pic of fall colors and snow… ",
+        "tweet_time": "2016-09-26T16:55:54+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14351002_1804531683092520_8646870353513021440_n.jpg?ig_cache_key=MTM0Nzk1NjQ1MjQ2ODE2MzAyNQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -113.583,
+          37.1042
+        ],
+        "type": "Point"
+      },
+      "id": "57e9531a46fe70001d64451a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@jfelixphoto",
+        "mongodb_id": "57e9548f46fe70001d64451b",
+        "tweet_text": "The snow clouds cleared and the light was calling to us. Julia ❤️ Peter. juliaobond… ",
+        "tweet_time": "2016-09-26T17:02:06+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14374207_967853046670329_1899820530744164352_n.jpg?ig_cache_key=MTM0NzY0MTY4MTY0NjA0ODE1Ng%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -106.843641,
+          38.663297
+        ],
+        "type": "Point"
+      },
+      "id": "57e9548f46fe70001d64451b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@josh669958",
+        "mongodb_id": "57e95b3946fe70001d64451e",
+        "tweet_text": "#glacier #icefieldsparkway #icefield #iphone #mountains #snow @ Ice Fields Parkway ",
+        "tweet_time": "2016-09-26T17:30:32+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14359485_1783094258572210_2020046964690780160_n.jpg?ig_cache_key=MTM0Nzk3Mzg4NTkzMjY4NzEyMQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -115.358852,
+          51.069556
+        ],
+        "type": "Point"
+      },
+      "id": "57e95b3946fe70001d64451e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@Jerome_Kuntz",
+        "mongodb_id": "57e9689446fe70001d644522",
+        "tweet_text": "Snow and leaves 🍂🍁🍃 #snow #leaves #autumn #fall #mountains #gopro #gooutside #exploremore… ",
+        "tweet_time": "2016-09-26T18:27:32+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14487462_341623182848551_1322556546541944832_n.jpg?ig_cache_key=MTM0ODAwMjU2NzQ5Nzc2Nzc4NA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -112.086999,
+          40.693563
+        ],
+        "type": "Point"
+      },
+      "id": "57e9689446fe70001d644522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@GayIdle",
+        "mongodb_id": "57e96a7546fe70001d644525",
+        "tweet_text": "Snow on those mountain peaks in the distance. 64degrees in the valley. #moving #travel #utah @… ",
+        "tweet_time": "2016-09-26T18:35:33+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s480x480/e35/14359990_1112739072154170_8395569673835380736_n.jpg?ig_cache_key=MTM0ODAwNjYwNzg4NzYwMTU1NA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -112.465,
+          40.5957
+        ],
+        "type": "Point"
+      },
+      "id": "57e96a7546fe70001d644525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@TisheyeLens",
+        "mongodb_id": "57e96dcd46fe70001d644529",
+        "tweet_text": "Snowy Peaks &amp; Blue Sky \n©Tisha Luk\n\n#Mountain #Landscape #Snow #Sunshine #BlueSky #Colorado… ",
+        "tweet_time": "2016-09-26T18:49:49+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14288055_804307029672183_3886043966553980928_n.jpg?ig_cache_key=MTM0ODAxMzc5MzkzODE1NzU1MA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -104.787509,
+          38.851206
+        ],
+        "type": "Point"
+      },
+      "id": "57e96dcd46fe70001d644529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@FREEFLOSKI",
+        "mongodb_id": "57e96f7446fe70001d64452c",
+        "tweet_text": "Come and join us at a unique Snow and Rock event London… ",
+        "tweet_time": "2016-09-26T18:56:51+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14369065_1702765020049744_7987840620175556608_n.jpg?ig_cache_key=MTM0ODAxNzMzNTE4MDU5MDE5MA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          6.91667,
+          45.5
+        ],
+        "type": "Point"
+      },
+      "id": "57e96f7446fe70001d64452c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@morourkej",
+        "mongodb_id": "57e98a0546fe70001d64453d",
+        "tweet_text": "Abay getting ready for the snow to fly! #nature #ski #arapahoebasin #mountains #colorado… ",
+        "tweet_time": "2016-09-26T20:50:13+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14449282_1246038092087274_7563780344214716416_n.jpg?ig_cache_key=MTM0ODA3NDM5NDc2OTEyOTU2MQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -105.871965,
+          39.641891
+        ],
+        "type": "Point"
+      },
+      "id": "57e98a0546fe70001d64453d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@Manualomar",
+        "mongodb_id": "57e9d8d146fe70001d644558",
+        "tweet_text": "In the Andes mountains with the best gang ever!\n\n#mountains #beautiful #snow #landscape #sky… ",
+        "tweet_time": "2016-09-27T02:26:24+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14504922_1191569370900606_3886516885402943488_n.jpg?ig_cache_key=MTM0ODI0MzYwMzcyMTQ4MjU2MQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.64506,
+          -33.43797
+        ],
+        "type": "Point"
+      },
+      "id": "57e9d8d146fe70001d644558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@pakechii",
+        "mongodb_id": "57e9df0e46fe70001d64455a",
+        "tweet_text": "Flying over Greenland #norgewian #flight #greenland #landscape #snow @ Greenland ",
+        "tweet_time": "2016-09-27T02:53:02+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14504916_779815215493601_3104499217356292096_n.jpg?ig_cache_key=MTM0ODI1Njk5OTg0MjcyNTQzNg%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -40,
+          72
+        ],
+        "type": "Point"
+      },
+      "id": "57e9df0e46fe70001d64455a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@Love2Travel365",
+        "mongodb_id": "57ea112746fe70001d644561",
+        "tweet_text": "Snow wherever you go 😍 here some flashback memories from my last trip to #finland #kuusamo.… ",
+        "tweet_time": "2016-09-27T06:26:46+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14334599_1665424723749376_2589269494509600768_n.jpg?ig_cache_key=MTM0ODM2NDU4MjQzOTk3OTUwNw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          29.1833,
+          65.9667
+        ],
+        "type": "Point"
+      },
+      "id": "57ea112746fe70001d644561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@powday_app",
+        "mongodb_id": "57ea746146fe70001d64457b",
+        "tweet_text": "#Whistler Snow Report\nNew: 0cm\nBase: 0cm\nAlpine: 1°C\nMid: 4°C\nValley: 10°C\nUpdated: 6:25am",
+        "tweet_time": "2016-09-27T13:30:09+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -122.955139,
+          50.123337
+        ],
+        "type": "Point"
+      },
+      "id": "57ea746146fe70001d64457b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@square006",
+        "mongodb_id": "57ea84a946fe70001d644588",
+        "tweet_text": "Arrived home to snow on the hills @ Providence, Utah ",
+        "tweet_time": "2016-09-27T14:39:36+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14272034_665824830253638_6484066840636030976_n.jpg?ig_cache_key=MTM0ODYxMjYzNDIyMzU5NzMxMw%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.814166,
+          41.705
+        ],
+        "type": "Point"
+      },
+      "id": "57ea84a946fe70001d644588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@MsSarahBAMF",
+        "mongodb_id": "57ea86f646fe70001d64458b",
+        "tweet_text": "#Colorado #glacierhike #snow #hike #mountain elevation 10,848' @ St Mary's Glacier ",
+        "tweet_time": "2016-09-27T14:49:26+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14449150_153876321734910_7251446517108572160_n.jpg?ig_cache_key=MTM0ODYxNzU3NTE0NzU1MDY1NA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -105.63981,
+          39.80984
+        ],
+        "type": "Point"
+      },
+      "id": "57ea86f646fe70001d64458b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@pooja_s15",
+        "mongodb_id": "57ea88d946fe70001d64458d",
+        "tweet_text": "Snow fight with the loser. @ Khardung La ",
+        "tweet_time": "2016-09-27T14:57:29+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14488154_1762357097368678_8110842088326692864_n.jpg?ig_cache_key=MTM0ODU3ODU5NjcxNzY5MzI3Ng%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          72.874255,
+          19.069394
+        ],
+        "type": "Point"
+      },
+      "id": "57ea88d946fe70001d64458d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@NWSFairbanks",
+        "mongodb_id": "57ea9d9446fe70001d644591",
+        "tweet_text": "Fairbanks had some #snow flurries this morning. Today was the first time that Fairbanks airport… ",
+        "tweet_time": "2016-09-27T16:25:56+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14359313_1203598163043973_2507108303440445440_n.jpg?ig_cache_key=MTM0ODY2NjE0ODQ1MDc3NDUwMg%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -147.823229,
+          64.857338
+        ],
+        "type": "Point"
+      },
+      "id": "57ea9d9446fe70001d644591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@NWSFairbanks",
+        "mongodb_id": "57eaa43f46fe70001d644596",
+        "tweet_text": "Video of some snow flurries at our office this morning. #akwx @ University of Alaska Fairbanks ",
+        "tweet_time": "2016-09-27T16:54:23+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/e15/14374183_541448359394224_5672367083103453184_n.jpg?ig_cache_key=MTM0ODY4MDQ2ODAxNDUyNTgyNA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -147.823229,
+          64.857338
+        ],
+        "type": "Point"
+      },
+      "id": "57eaa43f46fe70001d644596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@its_cour",
+        "mongodb_id": "57eabb0346fe70001d64459f",
+        "tweet_text": "Snow topped mountains 💙 @ Layton, Utah ",
+        "tweet_time": "2016-09-27T18:31:30+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14474185_877041462426766_213209628341698560_n.jpg?ig_cache_key=MTM0ODcyOTM1NTUwNTYyNzQxMg%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.955,
+          41.0779
+        ],
+        "type": "Point"
+      },
+      "id": "57eabb0346fe70001d64459f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@BishopClawson",
+        "mongodb_id": "57eacd4846fe70001d6445a9",
+        "tweet_text": "The farm is dry, but there's snow on Brian Head. @ Brian Head, Utah ",
+        "tweet_time": "2016-09-27T19:49:28+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14478575_606597232853981_7788771974087442432_n.jpg?ig_cache_key=MTM0ODc2ODU5NDQ0MzUwODUwNg%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -112.844722,
+          37.698888
+        ],
+        "type": "Point"
+      },
+      "id": "57eacd4846fe70001d6445a9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@J_Remy_kwj",
+        "mongodb_id": "57eaf01946fe70001d6445b9",
+        "tweet_text": "Snow-capped Swiss wonder \n\n#titlis #mounttitlis #snow #switzerland #swissalps #10000feet #3020m… ",
+        "tweet_time": "2016-09-27T22:18:00+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14448452_327318177622537_5623428305882447872_n.jpg?ig_cache_key=MTM0ODg0MzM1NTAyNzM2MjM5NA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          8.42318,
+          46.770658
+        ],
+        "type": "Point"
+      },
+      "id": "57eaf01946fe70001d6445b9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@moonshineslc",
+        "mongodb_id": "57eaf99e46fe70001d6445bd",
+        "tweet_text": "We saw snow this weekend at @snowbasinresort! You can catch us tonight at @graciesbar for what… ",
+        "tweet_time": "2016-09-27T22:58:38+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14504709_1774389522801077_3669936205950091264_n.jpg?ig_cache_key=MTM0ODg2Mzc5NDcxNzUwMzc2MA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.857077,
+          41.215716
+        ],
+        "type": "Point"
+      },
+      "id": "57eaf99e46fe70001d6445bd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@mikejadams",
+        "mongodb_id": "57ec16b1103ff5001dccfbb8",
+        "tweet_text": "On our hike a couple days ago we were nearly 8,700 elevation. maegsd had snow to snack on.… ",
+        "tweet_time": "2016-09-28T19:14:57+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14350564_197156557381031_4267486497512357888_n.jpg?ig_cache_key=MTM0OTQ3NTk5MTEwMjAzOTAyNQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.76238,
+          40.69155
+        ],
+        "type": "Point"
+      },
+      "id": "57ec16b1103ff5001dccfbb8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@wezzoo",
+        "mongodb_id": "57ec18c1103ff5001dccfbb9",
+        "tweet_text": "Some #snow is falling here. What about you? #WeatherByYou ",
+        "tweet_time": "2016-09-28T19:23:44+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          7.057909,
+          45.374816
+        ],
+        "type": "Point"
+      },
+      "id": "57ec18c1103ff5001dccfbb9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@wezzoo",
+        "mongodb_id": "57ec18ca103ff5001dccfbba",
+        "tweet_text": "Some #snow is falling here. What about you? #WeatherByYou ",
+        "tweet_time": "2016-09-28T19:23:54+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          7.052729,
+          45.373798
+        ],
+        "type": "Point"
+      },
+      "id": "57ec18ca103ff5001dccfbba"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@wesleydashner",
+        "mongodb_id": "57ec93f5103ff5001dccfbea",
+        "tweet_text": "No snow here yet... @ Brighton Ski Resort ",
+        "tweet_time": "2016-09-29T04:09:25+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -111.864035,
+          40.751328
+        ],
+        "type": "Point"
+      },
+      "id": "57ec93f5103ff5001dccfbea"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@wesleydashner",
+        "mongodb_id": "57ec95a7103ff5001dccfbeb",
+        "tweet_text": "No snow here yet... @ Brighton Ski Resort ",
+        "tweet_time": "2016-09-29T04:16:38+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14369084_187707941639131_4227245557346729984_n.jpg?ig_cache_key=MTM0OTc0ODYyNjQzMTY1NTQzOQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.864035,
+          40.751328
+        ],
+        "type": "Point"
+      },
+      "id": "57ec95a7103ff5001dccfbeb"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@powday_app",
+        "mongodb_id": "57ed1762103ff5001dccfc18",
+        "tweet_text": "#Whistler Snow Report\nNew: 0cm\nBase: 0cm\nAlpine: 4°C\nMid: 5°C\nValley: 6°C\nUpdated: 6:26am",
+        "tweet_time": "2016-09-29T13:30:10+00:00",
+        "media_url": null
+      },
+      "geometry": {
+        "coordinates": [
+          -122.955139,
+          50.123337
+        ],
+        "type": "Point"
+      },
+      "id": "57ed1762103ff5001dccfc18"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@S_Win79",
+        "mongodb_id": "57ed1b2e103ff5001dccfc1e",
+        "tweet_text": "TBT: Early morning vista before a great day of snow riding in Chile. @ Valle Nevado ",
+        "tweet_time": "2016-09-29T13:46:22+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14374468_331785973836908_8592901761566507008_n.jpg?ig_cache_key=MTM1MDAzNTM5MDUxNzUyNzg4Ng%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -70.2498,
+          -33.3547
+        ],
+        "type": "Point"
+      },
+      "id": "57ed1b2e103ff5001dccfc1e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@KeilaJirel",
+        "mongodb_id": "57ed7c43103ff5001dccfc4c",
+        "tweet_text": "Oktoberfest+Justin+Snow= One happy Keila 😊 #WinterIsComing @ Snowbird Ski Resort ",
+        "tweet_time": "2016-09-29T20:40:34+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p640x640/14334278_303831796676104_3254054591397888000_n.jpg?ig_cache_key=MTM1MDI0Mzg1Mzk5NTU5NTI0MA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          -111.645106,
+          40.561142
+        ],
+        "type": "Point"
+      },
+      "id": "57ed7c43103ff5001dccfc4c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@PACIFICPRIZM",
+        "mongodb_id": "57ed8b24103ff5001dccfc52",
+        "tweet_text": "The lifts stop spinning on Monday but we still get excited when it snow...especially this much!… ",
+        "tweet_time": "2016-09-29T21:44:03+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14540402_1503252783021861_2590667205716738048_n.jpg?ig_cache_key=MTM1MDI3NTgyMDcxNDk0MDAxMg%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          150.820873,
+          -34.054759
+        ],
+        "type": "Point"
+      },
+      "id": "57ed8b24103ff5001dccfc52"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@Falls_Creek",
+        "mongodb_id": "57edcd26103ff5001dccfc6a",
+        "tweet_text": "It's a pow morning... and tomorrow it's October. Enjoy it folks, 2 days left to enjoy the snow!… ",
+        "tweet_time": "2016-09-30T02:25:42+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14474309_573497436186652_5854931664521658368_n.jpg?ig_cache_key=MTM1MDQxNzU3NTkwOTA4Mzc5Ng%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          147.273837,
+          -36.865541
+        ],
+        "type": "Point"
+      },
+      "id": "57edcd26103ff5001dccfc6a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@RonanHunt88",
+        "mongodb_id": "57ede6fc103ff5001dccfc76",
+        "tweet_text": "First Siberian snow of the season! #Mongolia #snow #bbrrr #8monthsfrozen #transmongolian @… ",
+        "tweet_time": "2016-09-30T04:15:55+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14448236_1773656539555826_3699995311960227840_n.jpg?ig_cache_key=MTM1MDQ3MzA1Mzc0MTc3MTk0NQ%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          106.928995,
+          47.915806
+        ],
+        "type": "Point"
+      },
+      "id": "57ede6fc103ff5001dccfc76"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lang": "en",
+        "twitter_handle": "@BlackDiamondAMD",
+        "mongodb_id": "57ee0053103ff5001dccfc7c",
+        "tweet_text": "I love the smell of snowflakes in the morning! @ Falls Creek Snow Resort ",
+        "tweet_time": "2016-09-30T06:04:02+00:00",
+        "media_url": "https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/e15/14334483_297977080588737_7219695279883157504_n.jpg?ig_cache_key=MTM1MDUyNzQ1MDU1MTIzNTg1NA%3D%3D.2"
+      },
+      "geometry": {
+        "coordinates": [
+          147.281675,
+          -36.86374
+        ],
+        "type": "Point"
+      },
+      "id": "57ee0053103ff5001dccfc7c"
+    }
+  ],
+  "type": "FeatureCollection"
+}
