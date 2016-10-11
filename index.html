@@ -62,7 +62,7 @@
 	
 <div id='map'>
 	<nav id="map-ui" class="menu-ui">
-	    <a href='#' class='active' id='modis_snow'>MODIS Snow Cover</a>
+	    <a href='#' class='active' id='nsidc_snow'>MODIS Snow Cover</a>
 	    <a href='#' class='active' id='cccma_snow'>CCCMA Snow Cover</a>
 	</nav>
 </div>
@@ -97,7 +97,16 @@ var baselayerctrl = L.control.layers(baselayers,"",{position:'bottomleft'}).addT
 var dummy_img = 'https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14359485_1783094258572210_2020046964690780160_n.jpg?ig_cache_key=MTM0Nzk3Mzg4NTkzMjY4NzEyMQ%3D%3D.2';
 */	
 
-/*
+
+// mapbox example WMS layer setup
+// var modis_snow = L.tileLayer.wms('http://nowcoast.noaa.gov/arcgis/services/nowcoast/analysis_meteohydro_sfc_qpe_time/MapServer/WmsServer', {
+//    format: 'image/png',
+//    transparent: true,
+//    layers: '5',
+//    attribution: "NOAA",
+//    zIndex: 2
+//}).addTo(map);
+
 // Climo WMS layer setup
 var cccma_snow = L.tileLayer.wms('http://gis.srh.noaa.gov/arcgis/services/NDFDTemps/MapServer/WMSServer', {
     format: 'img/png',
@@ -106,14 +115,15 @@ var cccma_snow = L.tileLayer.wms('http://gis.srh.noaa.gov/arcgis/services/NDFDTe
     attribution: "CCMA",
     zIndex: 2
 }).addTo(map);
-	
-var modis_snow = L.tileLayer.wms('http://nowcoast.noaa.gov/arcgis/services/nowcoast/analysis_meteohydro_sfc_qpe_time/MapServer/WmsServer', {
+
+var nsidc_snow = L.tileLayer.wms('http://nsidc.org/cgi-bin/atlas_north', {
     format: 'image/png',
     transparent: true,
-    layers: '5',
-    attribution: "NOAA",
+    layers: 'snow_extent_01',
+    attribution: 'NSIDC WMS',
     zIndex: 2
 }).addTo(map);
+	
 
 // Climo WMS layer switcher
 document.getElementById('cccma_snow').onclick = function () {
@@ -123,13 +133,13 @@ document.getElementById('cccma_snow').onclick = function () {
     return false;
 };
 
-document.getElementById('modis_snow').onclick = function () {
+document.getElementById('nsidc_snow').onclick = function () {
     var enable = this.className !== 'active';
     precipitation.setOpacity(enable ? 1 : 0);
     this.className = enable ? 'active' : '';
     return false;
 };
-*/
+
 	
 /* Snow tweet point layer */
 var geojson_file = 'snow_points.geojson';
