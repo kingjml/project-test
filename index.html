@@ -59,10 +59,10 @@
 <script src="assets/L.Control.ZoomMin.js"></script>
 	
 <div id='map'>
-	<nav id="map-ui" class="menu-ui">
-	    <a href='#' class='active' id='nsidc_snow'>MODIS Snow Cover</a>
-	    <a href='#' class='active' id='cccma_snow'>CCCMA Snow Cover</a>
-	</nav>
+	<nav id='map-ui' class='menu-ui'>
+    <a href='#' class='active' id='cccma_snow'>CCCMA Snow Cover</a>
+    <a href='#' class='active' id='nsidc_snow'>NSIDC Snow Cover</a>
+  </nav>
 </div>
 
 <script>
@@ -121,7 +121,21 @@ var nsidc_snow = L.tileLayer.wms('http://nsidc.org/cgi-bin/atlas_north', {
     attribution: 'NSIDC WMS',
     zIndex: 2
 }).addTo(map);
-	
+
+// Climo WMS layer switcher
+document.getElementById('cccma_snow').onclick = function () {
+    var enable = this.className !== 'active';
+    temperature.setOpacity(enable ? 1 : 0);
+    this.className = enable ? 'active' : '';
+    return false;
+};
+
+document.getElementById('nsidc_snow').onclick = function () {
+    var enable = this.className !== 'active';
+    precipitation.setOpacity(enable ? 1 : 0);
+    this.className = enable ? 'active' : '';
+    return false;
+};
 	
 /* Snow tweet point layer */
 var geojson_file = 'snow_points.geojson';
@@ -151,21 +165,6 @@ var snow_points = L.mapbox.featureLayer()
 			layer.bindPopup(htmlcontent);
 		});
 	});
-
-// Climo WMS layer switcher
-document.getElementById('cccma_snow').onclick = function () {
-    var enable = this.className !== 'active';
-    temperature.setOpacity(enable ? 1 : 0);
-    this.className = enable ? 'active' : '';
-    return false;
-};
-
-document.getElementById('nsidc_snow').onclick = function () {
-    var enable = this.className !== 'active';
-    precipitation.setOpacity(enable ? 1 : 0);
-    this.className = enable ? 'active' : '';
-    return false;
-};
 
 </script>
 </body>
