@@ -13,6 +13,7 @@
 </head>
 <body>
 <style>
+/*
 .menu-ui {
   background:#fff;
   position:absolute;
@@ -50,6 +51,7 @@
       .menu-ui a.active:hover {
         background:#3074a4;
         }
+*/
 </style>
 
 <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
@@ -95,6 +97,7 @@ var baselayerctrl = L.control.layers(baselayers,"",{position:'bottomleft'}).addT
 var dummy_img = 'https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14359485_1783094258572210_2020046964690780160_n.jpg?ig_cache_key=MTM0Nzk3Mzg4NTkzMjY4NzEyMQ%3D%3D.2';
 */	
 
+/*
 // Climo WMS layer setup
 var cccma_snow = L.tileLayer.wms('http://gis.srh.noaa.gov/arcgis/services/NDFDTemps/MapServer/WMSServer', {
     format: 'img/png',
@@ -126,7 +129,7 @@ document.getElementById('modis_snow').onclick = function () {
     this.className = enable ? 'active' : '';
     return false;
 };
-
+*/
 	
 /* Snow tweet point layer */
 var geojson_file = 'snow_points.geojson';
