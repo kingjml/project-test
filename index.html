@@ -88,7 +88,7 @@ var baselayers = {
 // Default is dark layer
 baselayers.Dark.addTo(map);
 // create the baselayer control box
-var baselayerctrl = L.control.layers(baselayers,"",{position:'bottomleft'}).addTo(map);
+L.control.layers(baselayers,"",{position:'topleft'}).addTo(map);
 	
 /*
 // temporary embed picture file from insta
