@@ -19,7 +19,7 @@
   top:10px;right:10px;
   z-index:1;
   border-radius:3px;
-  width:120px;
+  width:150px;
   border:1px solid rgba(0,0,0,0.4);
   }
   .menu-ui a {
@@ -115,9 +115,10 @@ var baselayers = {
 	Dark: L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9'),
 	Satellite: L.mapbox.tileLayer('mapbox.satellite')
 };
-	
+// Default is dark layer
 baselayers.Dark.addTo(map);
-L.control.layers(baselayers).addTo(map);
+// create the baselayer control box
+var baselayerctrl = L.control.layers(baselayers,"",{position:'bottomleft'}).addTo(map);
 	
 /*
 // temporary embed picture file from insta
