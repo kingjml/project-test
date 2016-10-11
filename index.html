@@ -94,18 +94,22 @@ var baselayerctrl = L.control.layers(baselayers,"",{position:'bottomleft'}).addT
 // temporary embed picture file from insta
 var dummy_img = 'https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14359485_1783094258572210_2020046964690780160_n.jpg?ig_cache_key=MTM0Nzk3Mzg4NTkzMjY4NzEyMQ%3D%3D.2';
 */	
-/*
+
 // Climo WMS layer setup
 var cccma_snow = L.tileLayer.wms('http://gis.srh.noaa.gov/arcgis/services/NDFDTemps/MapServer/WMSServer', {
     format: 'img/png',
     transparent: true,
-    layers: 16
+    layers: 16,
+    attribution: "CCMA",
+    zIndex: 2
 }).addTo(map);
 	
 var modis_snow = L.tileLayer.wms('http://nowcoast.noaa.gov/arcgis/services/nowcoast/analysis_meteohydro_sfc_qpe_time/MapServer/WmsServer', {
     format: 'image/png',
     transparent: true,
-    layers: '5'
+    layers: '5',
+    attribution: "NOAA",
+    zIndex: 2
 }).addTo(map);
 
 // Climo WMS layer switcher
@@ -122,7 +126,7 @@ document.getElementById('modis_snow').onclick = function () {
     this.className = enable ? 'active' : '';
     return false;
 };
-*/	
+
 	
 /* Snow tweet point layer */
 var geojson_file = 'prod_points.geojson';
