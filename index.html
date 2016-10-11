@@ -14,7 +14,7 @@
 <body>
 <style>
 .menu-ui {
-  background:#fff;
+  background:#ffffff;
   position:absolute;
   top:10px;right:10px;
   z-index:1;
@@ -104,13 +104,13 @@ var dummy_img = 'https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh
 //    attribution: "NOAA",
 //    zIndex: 2
 //}).addTo(map);
-/*
+
 // Climo WMS layer setup
 var cccma_snow = L.tileLayer.wms('http://gis.srh.noaa.gov/arcgis/services/NDFDTemps/MapServer/WMSServer', {
     format: 'img/png',
     transparent: true,
     layers: 16,
-    attribution: "CCMA",
+    attribution: 'CCMA',
     zIndex: 2
 }).addTo(map);
 
@@ -125,18 +125,18 @@ var nsidc_snow = L.tileLayer.wms('http://nsidc.org/cgi-bin/atlas_north', {
 // Climo WMS layer switcher
 document.getElementById('cccma_snow').onclick = function () {
     var enable = this.className !== 'active';
-    temperature.setOpacity(enable ? 1 : 0);
+    cccma_snow.setOpacity(enable ? 1 : 0);
     this.className = enable ? 'active' : '';
     return false;
 };
 
 document.getElementById('nsidc_snow').onclick = function () {
     var enable = this.className !== 'active';
-    precipitation.setOpacity(enable ? 1 : 0);
+    nsidc_snow.setOpacity(enable ? 1 : 0);
     this.className = enable ? 'active' : '';
     return false;
 };
-*/	
+	
 /* Snow tweet point layer */
 var geojson_file = 'snow_points.geojson';
 var snow_points = L.mapbox.featureLayer()
