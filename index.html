@@ -124,15 +124,15 @@ var nasa_swe = L.tileLayer.wms('https://nsidc.org/cgi-bin/atlas_north', {
 
 // Climo WMS layer switcher
 document.getElementById('nasa_snow').onclick = function () {
-    var enable = this.className == 'active';
-    nasa_snow.setOpacity(enable ? 1 : 0);
+    var enable = this.className !== 'active';
+    nasa_snow.setOpacity(enable ? 0 : 1);
     this.className = enable ? 'active' : '';
     return false;
 };
 
 document.getElementById('nasa_swe').onclick = function () {
-    var enable = this.className == 'active';
-    nasa_swe.setOpacity(enable ? 1 : 0);
+    var enable = this.className !== 'active';
+    nasa_swe.setOpacity(enable ? 0 : 1);
     this.className = enable ? 'active' : '';
     return false;
 };
