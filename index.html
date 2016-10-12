@@ -82,13 +82,16 @@ var map = L.mapbox.map('map', '', {
 	
 // Toggle-able base layers (Dark or Optical-Satellite)
 var baselayers = {
-	Dark: L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9', {zIndex: 3}),
-	Satellite: L.mapbox.tileLayer('mapbox.satellite', {zIndex: 3})
+	Dark: L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9', {zIndex:3}),
+	Satellite: L.mapbox.tileLayer('mapbox.satellite', {zIndex:3})
 };
 // Default is dark layer
 baselayers.Dark.addTo(map);
 // create the baselayer control box
-L.control.layers(baselayers,"",{position:'topleft'}).addTo(map);
+L.control.layers(baselayers,"", { 
+	position:'topleft',
+	autoZIndex:false
+}).addTo(map);
 	
 /*
 // temporary embed picture file from insta
