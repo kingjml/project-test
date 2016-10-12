@@ -106,13 +106,13 @@ var dummy_img = 'https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh
 //}).addTo(map);
 
 // Climo WMS layer setup
-var nasa_snow = L.tileLayer.wms('http://neo.sci.gsfc.nasa.gov/view.php', {
+var nasa_snow = L.tileLayer.wms('http://neowms.sci.gsfc.nasa.gov/wms/wms', {
     format: 'img/png',
     transparent: true,
     layers: 'MOD10C1_D_SNOW',
     attribution: 'NASA',
     zIndex: 2
-})
+}).addTo(map);
 
 var nasa_swe = L.tileLayer.wms('http://nsidc.org/cgi-bin/atlas_north', {
     format: 'image/png',
@@ -120,7 +120,7 @@ var nasa_swe = L.tileLayer.wms('http://nsidc.org/cgi-bin/atlas_north', {
     layers: 'snow_extent_01',
     attribution: 'NSIDC',
     zIndex: 2
-})
+}).addTo(map);
 
 // Climo WMS layer switcher
 document.getElementById('nasa_snow').onclick = function () {
