@@ -60,8 +60,8 @@
 	
 <div id='map'>
 	<nav id='map-ui' class='menu-ui'>
-    <a href='#' class='active' id='cccma_snow'>CCCMA Snow Cover</a>
-    <a href='#' class='active' id='nsidc_snow'>NSIDC Snow Cover</a>
+    <a href='#' class='active' id='nasa_snow'>NASA Snow Extent</a>
+    <a href='#' class='active' id='nasa_swe'>NASA SWE</a>
   </nav>
 </div>
 
@@ -106,33 +106,33 @@ var dummy_img = 'https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh
 //}).addTo(map);
 
 // Climo WMS layer setup
-var cccma_snow = L.tileLayer.wms('http://gis.srh.noaa.gov/arcgis/services/NDFDTemps/MapServer/WMSServer', {
+var nasa_snow = L.tileLayer.wms('http://disc1.sci.gsfc.nasa.gov/daac-bin/wms_trmm', {
     format: 'img/png',
     transparent: true,
-    layers: 16,
-    attribution: 'CCMA',
+    layers: 'MOD10C1_D_SNOW',
+    attribution: 'NASA',
     zIndex: 2
 }).addTo(map);
 
-var nsidc_snow = L.tileLayer.wms('http://nsidc.org/cgi-bin/atlas_north', {
+var nasa_swe = L.tileLayer.wms('http://nsidc.org/cgi-bin/atlas_north', {
     format: 'image/png',
     transparent: true,
     layers: 'snow_extent_01',
-    attribution: 'NSIDC WMS',
+    attribution: 'NSIDC',
     zIndex: 2
 }).addTo(map);
 
 // Climo WMS layer switcher
-document.getElementById('cccma_snow').onclick = function () {
+document.getElementById('nasa_snow').onclick = function () {
     var enable = this.className !== 'active';
-    cccma_snow.setOpacity(enable ? 1 : 0);
+    nasa_snow.setOpacity(enable ? 1 : 0);
     this.className = enable ? 'active' : '';
     return false;
 };
 
-document.getElementById('nsidc_snow').onclick = function () {
+document.getElementById('nasa_swe').onclick = function () {
     var enable = this.className !== 'active';
-    nsidc_snow.setOpacity(enable ? 1 : 0);
+    nasa_swe.setOpacity(enable ? 1 : 0);
     this.className = enable ? 'active' : '';
     return false;
 };
