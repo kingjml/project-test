@@ -82,8 +82,8 @@ var map = L.mapbox.map('map', '', {
 	
 // Toggle-able base layers (Dark or Optical-Satellite)
 var baselayers = {
-	Dark: L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9'),
-	Satellite: L.mapbox.tileLayer('mapbox.satellite')
+	Dark: L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9', {zIndex: 3}),
+	Satellite: L.mapbox.tileLayer('mapbox.satellite', {zIndex: 3})
 };
 // Default is dark layer
 baselayers.Dark.addTo(map);
@@ -109,6 +109,7 @@ var dummy_img = 'https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh
 var nasa_snow = L.tileLayer.wms('http://neowms.sci.gsfc.nasa.gov/wms/wms', {
     format: 'img/png',
     transparent: true,
+    version: '1.3.0'
     layers: 'MOD10C1_D_SNOW',
     attribution: 'NASA',
     zIndex: 2
