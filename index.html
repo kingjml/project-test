@@ -76,28 +76,32 @@ var map = L.mapbox.map('map', '', {
 	minZoom:3,
 	maxZoom:16,
 	worldCopyJump:true
-    })
-    .addControl(new L.Control.ZoomMin());
+})
+.addControl(new L.Control.ZoomMin());
 	
 // Toggle-able base layers (Dark or Optical-Satellite)
 var baselayers = {
 	Dark: L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9', {zIndex:3}),
 	Satellite: L.mapbox.tileLayer('mapbox.satellite', {zIndex:3})
 };
-/*	
-// Climo WMS layer setup
+	
+// Climo layer setup
 var overlays = {
-	ims_snow: L.mapbox.tileLayer('m9brady.brcuvjhs', {
+	ims_snow = L.mapbox.tileLayer('m9brady.brcuvjhs', {
+		format: 'png256',
+		maxZoom: 22,
+		opacity: 0.8,
 		transparent: true,
+		reuseTiles: true,
+		attribution: 'National Ice Service',
 		zIndex: 2
 	})
 };
-*/	
 	
 // Default base layer is Dark
 baselayers.Dark.addTo(map);
 // create the baselayer control box
-L.control.layers(baselayers,'', { 
+L.control.layers(baselayers,overlays, { 
 	position:'topleft'
 }).addTo(map);
 	
@@ -125,8 +129,8 @@ var nasa_swe = L.tileLayer.wms('https://nsidc.org/cgi-bin/atlas_north', {
     attribution: 'NSIDC',
     zIndex: 2
 }).addTo(map);
-*/
-	
+
+
 // Climo layer defn
 var ims_snow = L.mapbox.tileLayer('m9brady.brcuvjhs', {
 	format: 'png256',
@@ -149,7 +153,7 @@ map.getContainer().querySelector('#ims_snow').onclick = function() {
 	}
 	return false;
 };
-	
+*/	
 /*
 document.getElementById('nasa_swe').onclick = function () {
     var enable = this.className !== 'active';
@@ -167,10 +171,10 @@ var snow_points = L.mapbox.featureLayer()
 		//map.fitBounds(snow_points.getBounds());
 		// setup the clustering group
 		var clusterGroup = new L.MarkerClusterGroup();
-			e.target.eachLayer(function(layer) {
-				clusterGroup.addLayer(layer);
-			});
-			map.addLayer(clusterGroup);
+		e.target.eachLayer(function(layer) {
+			clusterGroup.addLayer(layer);
+		});
+		map.addLayer(clusterGroup);
 		
 		// Snow tweet popups
 		snow_points.eachLayer(function(layer) {
