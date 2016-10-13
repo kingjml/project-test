@@ -60,7 +60,7 @@
 	
 <div id='map'>
 	<nav id='map-ui' class='menu-ui'>
-    <a href='#' class='active' id='nasa_snow'>NASA Snow Extent</a>
+    <a href='#' class='active' id='ims_snow'>IMS Snow Cover</a>
     <a href='#' class='active' id='nasa_swe'>NASA SWE</a>
   </nav>
 </div>
@@ -109,13 +109,10 @@ var dummy_img = 'https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh
 //}).addTo(map);
 
 // Climo WMS layer setup
-var nasa_snow = L.tileLayer.wms('http://neowms.sci.gsfc.nasa.gov/wms/wms', {
+var ims_snow = L.tileLayer('m9brady.brcuvjhs', {
     format: 'image/png',
     transparent: true,
-    version: '1.3.0',
-    layers: 'MOD10C1_D_SNOW',
-    styles: 'rgb',
-    attribution: 'NASA',
+    attribution: 'National Ice Center',
     zIndex: 2
 }).addTo(map);
 
@@ -129,9 +126,9 @@ var nasa_swe = L.tileLayer.wms('https://nsidc.org/cgi-bin/atlas_north', {
 }).addTo(map);
 
 // Climo WMS layer switcher
-document.getElementById('nasa_snow').onclick = function () {
+document.getElementById('ims_snow').onclick = function () {
     var enable = this.className !== 'active';
-    nasa_snow.setOpacity(enable ? 0 : 1);
+    ims_snow.setOpacity(enable ? 0 : 1);
     this.className = enable ? 'active' : '';
     return false;
 };
