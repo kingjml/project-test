@@ -60,7 +60,7 @@
 	
 <div id='map'>
 	<nav id='map-ui' class='menu-ui'>
-    <a href='#' id='ims_snow'>IMS Snow Cover</a>
+    <a href='#' class='' id='ims_snow'>IMS Snow Cover</a>
   </nav>
 </div>
 
@@ -84,10 +84,17 @@ var baselayers = {
 	Dark: L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9', {zIndex:3}),
 	Satellite: L.mapbox.tileLayer('mapbox.satellite', {zIndex:3})
 };
-// Default is dark layer
+	
+// Climo WMS layer setup
+var overlays = {
+	ims_snow: L.mapbox.tileLayer('m9brady.brcuvjhs', {zIndex: 2})
+};
+	
+	
+// Default base layer is Dark
 baselayers.Dark.addTo(map);
 // create the baselayer control box
-L.control.layers(baselayers,"", { 
+L.control.layers(baselayers,overlays, { 
 	position:'topleft',
 	autoZIndex:false
 }).addTo(map);
@@ -107,10 +114,6 @@ var dummy_img = 'https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh
 //    zIndex: 2
 //}).addTo(map);
 
-// Climo WMS layer setup
-var ims_snow = L.mapbox.tileLayer('m9brady.brcuvjhs', {
-    zIndex: 2
-}).addTo(map);
 /*
 var nasa_swe = L.tileLayer.wms('https://nsidc.org/cgi-bin/atlas_north', {
     format: 'image/png',
@@ -120,7 +123,7 @@ var nasa_swe = L.tileLayer.wms('https://nsidc.org/cgi-bin/atlas_north', {
     attribution: 'NSIDC',
     zIndex: 2
 }).addTo(map);
-*/
+
 // Climo WMS layer switcher
 map.getContainer().querySelector('#ims_snow').onclick = function() {
 	if (this.className === 'active') {
@@ -132,7 +135,7 @@ map.getContainer().querySelector('#ims_snow').onclick = function() {
 	}
 	return false;
 };
-	
+*/	
 /*
 document.getElementById('nasa_swe').onclick = function () {
     var enable = this.className !== 'active';
