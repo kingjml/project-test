@@ -59,9 +59,6 @@
 <script src="assets/L.Control.ZoomMin.js"></script>
 	
 <div id='map'>
-	<nav id='map-ui' class='menu-ui'>
-    <a href='#' class='' id='ims_snow'>IMS Snow Cover</a>
-  </nav>
 </div>
 
 <script>
@@ -87,7 +84,7 @@ var baselayers = {
 	
 // Climo layer setup
 var overlays = {
-	ims_snow = L.mapbox.tileLayer('m9brady.brcuvjhs', {
+	ims_snow: L.mapbox.tileLayer('m9brady.brcuvjhs', {
 		format: 'png256',
 		maxZoom: 22,
 		opacity: 0.8,
