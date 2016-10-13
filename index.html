@@ -60,7 +60,7 @@
 	
 <div id='map'>
 	<nav id='map-ui' class='menu-ui'>
-    <a href='#' class='active' id='ims_snow'>IMS Snow Cover</a>
+    <a href='#' id='ims_snow'>IMS Snow Cover</a>
   </nav>
 </div>
 
@@ -110,7 +110,6 @@ var dummy_img = 'https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh
 // Climo WMS layer setup
 var ims_snow = L.mapbox.tileLayer('m9brady.brcuvjhs', {
     format: 'png256',
-    attribution: 'National Ice Center',
     zIndex: 2
 }).addTo(map);
 /*
@@ -124,12 +123,17 @@ var nasa_swe = L.tileLayer.wms('https://nsidc.org/cgi-bin/atlas_north', {
 }).addTo(map);
 */
 // Climo WMS layer switcher
-document.getElementById('ims_snow').onclick = function () {
-    var enable = this.className !== 'active';
-    ims_snow.setOpacity(enable ? 1 : 0);
-    this.className = enable ? 'active' : '';
-    return false;
+map.getContainer().querySelector('#ims_snow').onclick = function() {
+	if (this.className === 'active') {
+		map.removeLayer(ims_snow);
+		this.className = '';
+	} else {
+		map.addLayer(ims_snow);
+		this.className = 'active';
+	}
+	return false;
 };
+	
 /*
 document.getElementById('nasa_swe').onclick = function () {
     var enable = this.className !== 'active';
