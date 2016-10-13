@@ -84,12 +84,15 @@ var baselayers = {
 	Dark: L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9', {zIndex:3}),
 	Satellite: L.mapbox.tileLayer('mapbox.satellite', {zIndex:3})
 };
-	
+/*	
 // Climo WMS layer setup
 var overlays = {
-	ims_snow: L.mapbox.tileLayer('m9brady.brcuvjhs', {zIndex: 2})
+	ims_snow: L.mapbox.tileLayer('m9brady.brcuvjhs', {
+		transparent: true,
+		zIndex: 2
+	})
 };
-	
+*/	
 	
 // Default base layer is Dark
 baselayers.Dark.addTo(map);
@@ -122,7 +125,12 @@ var nasa_swe = L.tileLayer.wms('https://nsidc.org/cgi-bin/atlas_north', {
     attribution: 'NSIDC',
     zIndex: 2
 }).addTo(map);
-
+*/
+var ims_snow = L.mapbox.tileLayer('m9brady.brcuvjhs', {
+	transparent: true,
+	zIndex: 2
+});
+	
 // Climo WMS layer switcher
 map.getContainer().querySelector('#ims_snow').onclick = function() {
 	if (this.className === 'active') {
@@ -134,7 +142,7 @@ map.getContainer().querySelector('#ims_snow').onclick = function() {
 	}
 	return false;
 };
-*/	
+	
 /*
 document.getElementById('nasa_swe').onclick = function () {
     var enable = this.className !== 'active';
