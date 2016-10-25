@@ -158,7 +158,7 @@ var snow_points = L.mapbox.featureLayer()
 	});
 
 // time slider
-var sliderControl = L.control.sliderControl({layer:snow_points, range:true});
+var sliderControl = L.control.sliderControl({position: "topright", layer:snow_points, range:true});
 
 sliderControl.options.markers.sort(function (a, b) {
 	return (a.properties.tweet_time > b.properties.tweet_time);
