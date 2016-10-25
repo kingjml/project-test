@@ -23,12 +23,6 @@
 	
 <div id='map'>
 </div>
-
-<script src="assets/jquery/jquery-1.9.1.min.js"></script>
-<script src="assets/jquery/jquery-ui.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
-<script src="https://rawgit.com/dwilhelm89/LeafletSlider/master/SliderControl.js" type="text/javascript"></script>
-	
 	
 <script>
 
@@ -156,7 +150,8 @@ var snow_points = L.mapbox.featureLayer()
 			layer.bindPopup(htmlcontent);
 		});
 	});
-
+	
+/*
 // time slider
 var sliderControl = L.control.sliderControl({position: "topright", layer:snow_points, range:true});
 
@@ -166,7 +161,7 @@ sliderControl.options.markers.sort(function (a, b) {
 	
 map.addControl(sliderControl);
 sliderControl.startSlider();
-
+*/
 </script>
 </body>
 </html>
