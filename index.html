@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>Over zoom tiles</title>
+<title>A simple map</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
 <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
@@ -12,40 +12,156 @@
 </style>
 </head>
 <body>
-
 <style>
-#zoom-level {
-  margin: 10px;
-  padding: 10px;
-  position: absolute;
-  right: 0;
-  top:0;
-  z-index: 1000;
-  background: #ddd;
-}
 </style>
-<div id='map'></div>
-<div id='zoom-level'>Zoom Level: 3</div>
-<script>
-L.mapbox.accessToken = 'pk.eyJ1IjoibTlicmFkeSIsImEiOiJjaXNzNHQ0YmowNmM5MnlwaGh3YjJzd3k3In0.-Fu9YD8Qbrw7xRZ-7Ocn6w';
 
-// The native maximum zoom level for this tile layer is 19
-var map = L.mapbox.map('map', 'mapbox.streets-satellite', {
-    tileLayer: {
-        maxNativeZoom: 6 // The map will use zoom level 6 tiles for all zoom levels past 19
-    }
-}).setView([44, -79.50], 3);
-
-
-map.on('zoomend', function(){
-    document.getElementById('zoom-level').innerHTML = 'Zoom Level: ' + map.getZoom();
-});
-
-L.tileLayer('https://api.mapbox.com/styles/v1/m9brady/citoswv1300072ipnlx124apk/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibTlicmFkeSIsImEiOiJjaXNzNHQ0YmowNmM5MnlwaGh3YjJzd3k3In0.-Fu9YD8Qbrw7xRZ-7Ocn6w', {
-	maxNativeZoom:6}).addTo(map);
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+<link rel="stylesheet" href="assets/Leaflet_Control_ZoomMin/L.Control.ZoomMin.css" media="screen">
+<script src="assets/Leaflet_Control_ZoomMin/L.Control.ZoomMin.js"></script>
 	
-</script>
+<div id='map'>
+</div>
+	
+<script>
 
+/* Setup the main map */
+L.mapbox.accessToken = 'pk.eyJ1IjoibTlicmFkeSIsImEiOiJjaXNzNHQ0YmowNmM5MnlwaGh3YjJzd3k3In0.-Fu9YD8Qbrw7xRZ-7Ocn6w';
+var map = L.mapbox.map('map', '', {
+	attributionControl:{compact:true},
+	zoomControl:false,
+	center:[44, -79.50],
+	zoom:3,
+	minZoom:3,
+	maxZoom:16,
+	worldCopyJump:true
+})
+.addControl(new L.Control.ZoomMin());
+	
+// Toggle-able base layers (Dark or Optical-Satellite)
+var baselayers = {
+	Dark: L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9', {zIndex:3}),
+	Satellite: L.mapbox.tileLayer('mapbox.satellite', {zIndex:3})
+};
+	
+// Climo layer overlays
+var overlays = {
+	"IMS Daily Snow Cover": L.mapbox.tileLayer('m9brady.ims4kmdaily', {
+		format: 'png',
+		maxZoom: 16,
+		maxNativeZoom: 6,
+		opacity: 0.8,
+		transparent: true,
+		attribution: 'National Ice Service',
+		zIndex: 2
+	})
+};
+	
+// Default base layer is Dark
+baselayers.Dark.addTo(map);
+// create the baselayer control box
+L.control.layers(baselayers,overlays, { 
+	position:'topleft'
+}).addTo(map);
+	
+/*
+// temporary embed picture file from insta
+var dummy_img = 'https://instagram.fyhu1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/14359485_1783094258572210_2020046964690780160_n.jpg?ig_cache_key=MTM0Nzk3Mzg4NTkzMjY4NzEyMQ%3D%3D.2';
+*/	
+
+
+// mapbox example WMS layer setup
+// var modis_snow = L.tileLayer.wms('http://nowcoast.noaa.gov/arcgis/services/nowcoast/analysis_meteohydro_sfc_qpe_time/MapServer/WmsServer', {
+//    format: 'image/png',
+//    transparent: true,
+//    layers: '5',
+//    attribution: "NOAA",
+//    zIndex: 2
+//}).addTo(map);
+
+/*
+var nasa_swe = L.tileLayer.wms('https://nsidc.org/cgi-bin/atlas_north', {
+    format: 'image/png',
+    transparent: true,
+    version: "1.1.1",
+    layers: 'snow_extent_01',
+    attribution: 'NSIDC',
+    zIndex: 2
+}).addTo(map);
+
+
+// Climo layer defn
+var ims_snow = L.mapbox.tileLayer('m9brady.brcuvjhs', {
+	format: 'png256',
+	maxZoom: 22,
+	opacity: 0.8,
+	transparent: true,
+	reuseTiles: true,
+	attribution: 'National Ice Service',
+	zIndex: 2
+});
+	
+// Climo WMS layer toggle
+map.getContainer().querySelector('#ims_snow').onclick = function() {
+	if (this.className === 'active') {
+		map.removeLayer(ims_snow);
+		this.className = '';
+	} else {
+		map.addLayer(ims_snow);
+		this.className = 'active';
+	}
+	return false;
+};
+*/	
+/*
+document.getElementById('nasa_swe').onclick = function () {
+    var enable = this.className !== 'active';
+    nasa_swe.setOpacity(enable ? 1 : 0);
+    this.className = enable ? 'active' : '';
+    return false;
+};
+*/	
+/* Snow tweet point layer */
+var geojson_file = 'snow_points.geojson';
+var snow_points = L.mapbox.featureLayer()
+	.loadURL(geojson_file)
+	.on('ready', function(e) {
+		// fit map to bounds of all data points (keeping for later use maybe)
+		//map.fitBounds(snow_points.getBounds());
+		// setup the clustering group
+		var clusterGroup = new L.MarkerClusterGroup();
+		e.target.eachLayer(function(layer) {
+			clusterGroup.addLayer(layer);
+		});
+		map.addLayer(clusterGroup);
+		
+		// Snow tweet popups
+		snow_points.eachLayer(function(layer) {
+			if (!layer.feature.properties.media_url) {
+				var htmlcontent = '<h3>'+layer.feature.properties.twitter_handle+'<\/h3><small>'+layer.feature.properties.tweet_time+'<\/small>' +
+				    '<p>'+layer.feature.properties.tweet_text+'<br \/p>';
+			} else {
+				var img_url = layer.feature.properties.media_url;
+				var htmlcontent = '<h2>'+layer.feature.properties.twitter_handle+'<\/h2>' +
+				    '<p>'+layer.feature.properties.tweet_text+'<br \/p>' +
+				    '<img src="' + img_url + '" alt="Instagram" style="width:240px;height:240px;">';
+			}
+			layer.bindPopup(htmlcontent);
+		});
+	});
+	
+/*
+// time slider
+var sliderControl = L.control.sliderControl({position: "topright", layer:snow_points, range:true});
+
+sliderControl.options.markers.sort(function (a, b) {
+	return (a.properties.tweet_time > b.properties.tweet_time);
+});
+	
+map.addControl(sliderControl);
+sliderControl.startSlider();
+*/
+</script>
 </body>
 </html>
-
