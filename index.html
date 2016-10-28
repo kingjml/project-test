@@ -42,7 +42,8 @@ var map = L.mapbox.map('map', '', {
 // Toggle-able base layers (Dark or Optical-Satellite)
 var baselayers = {
 	Dark: L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v9', {zIndex:3}),
-	Satellite: L.mapbox.tileLayer('mapbox.satellite', {zIndex:3})
+	Satellite: L.mapbox.tileLayer('mapbox.satellite', {zIndex:3}),
+	Terrain: L.mapbox.tilelayer('mapbox.terrain-rgb', {zIndex:3})
 };
 	
 // Climo layer overlays
