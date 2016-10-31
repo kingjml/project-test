@@ -124,7 +124,7 @@ document.getElementById('nasa_swe').onclick = function () {
 };
 */	
 /* Snow tweet point layer */
-var geojson_file = 'snow_points.geojson';
+var geojson_file = 'prod_points.geojson';
 var snow_points = L.mapbox.featureLayer()
 	.loadURL(geojson_file)
 	.on('ready', function(e) {
