@@ -29,8 +29,10 @@
  <script>
 	var map = L.map('map', options={
 		"zoomControl":false,
-		maxZoom: 14
-	}).setView([44, -79.50], 5);
+		minZoom: 3,
+		maxZoom: 14,
+		worldCopyJump: true
+	}).setView([44, -79.50], 3);
 	
 	// mapbox-dark layer
 	var basemap_dark = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
