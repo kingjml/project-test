@@ -100,7 +100,7 @@
 				return L.circleMarker(latlng, geojsonMarkerOptions);
 			},
 			onEachFeature: function (feature, layer) {
-				var date = new Date(feature.properties.tweet_time);
+				var date = new Date(feature.properties.time);
 				var msg = [];
 				msg.push("<h3>" + feature.properties.twitter_handle + "<\/h3>");
 				msg.push("<small>" + date.toLocaleDateString()+ " " + date.toLocaleTimeString() + "<\/small>");
