@@ -103,7 +103,7 @@
 				var date = new Date(feature.properties.time);
 				var msg = [];
 				msg.push("<h3>" + feature.properties.twitter_handle + "<\/h3>");
-				msg.push("<small>" + date.toLocaleDateString()+ " " + date.toLocaleTimeString() + "<\/small>");
+				msg.push("<small>" + date.toLocaleDateString()+ " " + date.toLocaleTimeString() + " UTC<\/small>");
 				msg.push("<p>" + feature.properties.tweet_text + "<\/p>");
 				if (feature.properties.media_url) {
 					msg.push('<img src="' + feature.properties.media_url + '" alt="Instagram" style="width:320px;height:320px;">');
