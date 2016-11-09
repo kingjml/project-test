@@ -65,7 +65,7 @@
 		id: 'm9brady.ims4kmdaily',
 		accessToken: 'pk.eyJ1IjoibTlicmFkeSIsImEiOiJjaXNzNHQ0YmowNmM5MnlwaGh3YjJzd3k3In0.-Fu9YD8Qbrw7xRZ-7Ocn6w'
 	}).addTo(map);
-	 
+	/*
 	// cmc overlay
 	var overlay_cmc = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 		attribution: 'Snow extent &copy; <a href="https://nsidc.org/data/docs/daac/nsidc0447_CMC_snow_depth/index.html">Canadian Meteorological Centre</a>',
@@ -76,10 +76,11 @@
 		id: 'm9brady.cmc24kmdaily',
 		accessToken: 'pk.eyJ1IjoibTlicmFkeSIsImEiOiJjaXNzNHQ0YmowNmM5MnlwaGh3YjJzd3k3In0.-Fu9YD8Qbrw7xRZ-7Ocn6w'
 	})
+	*/
 	// overlay group
 	var overlays = {
-		"IMS Daily Snow Cover":overlay_ims, 
-		"CMC Daily Snow Cover":overlay_cmc
+		"IMS Daily Snow Cover":overlay_ims
+		//"CMC Daily Snow Cover":overlay_cmc
 	};
 	// baselayer control 
 	L.control.layers(basemaps, overlays, options={
