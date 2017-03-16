@@ -87,14 +87,14 @@
 		id: 'nexrad-n0q-900913'
 	})
 	
-	// IEM GOES-NA
+	// IEM GOES-NA IR
 	var overlay_iem_goes = L.tileLayer('https://mesonet3.agron.iastate.edu/cache/tile.py/1.0.0/{id}/{z}/{x}/{y}.png?'+(new Date()).getTime(), {
 		attribution: 'GOES-EAST Tiles &copy;<a href="https://mesonet.agron.iastate.edu/GIS/radview.phtml">Iowa Environmental Mesonet (IEM)</a>',
 		maxZoom: 14,
 		maxNativeZoom: 6,
-		opacity: 0.5,
+		opacity: 0.7,
 		transparent: true,
-		id: 'goes-vis-1km-900913'
+		id: 'goes-ir-4km-900913'
 	})
 	
 	// overlay group
