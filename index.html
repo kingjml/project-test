@@ -87,22 +87,22 @@
 		id: 'nexrad-n0q-900913'
 	})
 	
-	// IEM GOES-NA IR
+	// IEM GOES-NA VIS
 	var overlay_iem_goes = L.tileLayer('https://mesonet3.agron.iastate.edu/cache/tile.py/1.0.0/{id}/{z}/{x}/{y}.png?'+(new Date()).getTime(), {
 		attribution: 'GOES-EAST Tiles &copy;<a href="https://mesonet.agron.iastate.edu/GIS/radview.phtml">Iowa Environmental Mesonet (IEM)</a>',
 		maxZoom: 14,
 		maxNativeZoom: 6,
 		opacity: 0.7,
 		transparent: true,
-		id: 'goes-ir-4km-900913'
+		id: 'goes-vis-1km-900913'
 	})
 	
 	// overlay group
 	var overlays = {
 		"IMS Daily Snow Cover":overlay_ims,
 		"CMC Daily Snow Cover":overlay_cmc,
-		"IEM NEXRAD RADAR":overlay_iem_radar,
-		"IEM GOES North America":overlay_iem_goes
+		"IEM NEXRAD Base Reflectivity":overlay_iem_radar,
+		"IEM GOES North America Visible":overlay_iem_goes
 	};
 	// baselayer control 
 	L.control.layers(basemaps, overlays, options={
